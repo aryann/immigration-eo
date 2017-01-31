@@ -6,14 +6,14 @@ html, body {
 
 /* begin flexslider styles */
 .flexslider {
-  font-size: 5.2em;
+  font-size: 5em;
   font-family: 'Stardos Stencil', cursive;
   background-color: rgb(251, 55, 49);
   color: #fff;
   line-height: 1;
 }
 .flexslider .slides {
-  padding: 2.5em 0;
+  padding: 1.8em 0;
 }
 .flex-control-paging {
   line-height: 0.5;
@@ -42,15 +42,15 @@ html, body {
 a.buttonlink {
   background-color: #ccc;
   font-size: 1.4em;
-  padding: .7em;
+  padding: .7em 1em;
   text-align: center;
   float: none;
   position: absolute;
   bottom: -50px;
   left: 50%;
-  border-radius: 0;
-  -moz-border-radius: 0;
-  -webkit-border-radius: 0;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
@@ -87,10 +87,39 @@ a.buttonlink:active {
   float: left;
   margin-left: 10px;
 }
-.social a {
+.social a, .social a, .social a {
   color: #333;
+  text-decoration: none;
+}
+.social img {
+  width: 30px;
+  height: 30px;
 }
 #features {
   background-color: #333;
+}
+.main-title {
+  line-height: 1.2;
+}
+.sitcky-cta-container {
+  background: white;
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  height: 80px;
+  width: 100%;
+  border-top: 1px solid #eee;
+  padding: 20px 50px;
+}
+.sitcky-cta-container .buttonlink {
+  top: 5px;
+  bottom: auto;
+}
+.counter-container {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+.counter {
+  color: rgb(251, 55, 49);
 }
 /* end rest of styles */

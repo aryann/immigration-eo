@@ -34,6 +34,8 @@ $(document).ready(function(){
 	// initialise  slideshow
 	$('.flexslider').flexslider({
   	animation: "fade",
+    slideshow: true,
+    slideshowSpeed: 3000,
   	directionNav: false,
     start: function(slider){
       // alert()
