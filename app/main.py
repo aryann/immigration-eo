@@ -20,11 +20,13 @@ class MainPage(webapp2.RequestHandler):
 
     def get(self):
       signatures = []
+      num_signatories = 0
       with open(SIGNATURES_FILE) as f:
         reader = csv.reader(f)
         next(reader)  # Skips the header.
         curr = []
         for i, row in enumerate(reader):
+          num_signatories += 1
           if i != 0 and i % SIGNATURES_PER_ROW == 0:
             signatures.append(curr)
             curr = []
@@ -35,6 +37,7 @@ class MainPage(webapp2.RequestHandler):
 
       template_values = {
           'signatures': signatures,
+          'num_signatories': '{:,}'.format(num_signatories),
       }
       self.response.write(TEMPLATE.render(template_values))
 
