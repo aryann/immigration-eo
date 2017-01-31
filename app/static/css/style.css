@@ -1,0 +1,96 @@
+/* begin global styles */
+html, body {
+  font-size: 16px;
+}
+/* end global styles */
+
+/* begin flexslider styles */
+.flexslider {
+  font-size: 5.2em;
+  font-family: 'Stardos Stencil', cursive;
+  background-color: rgb(251, 55, 49);
+  color: #fff;
+  line-height: 1;
+}
+.flexslider .slides {
+  padding: 2.5em 0;
+}
+.flex-control-paging {
+  line-height: 0.5;
+}
+.flex-control-paging li a {
+  background-color: rgb(197, 197, 197);
+}
+.flex-control-paging li a.flex-active {
+  background-color: #fff;
+}
+.slides li {
+  text-align: center;
+}
+/* end flexslider styles */
+
+/* begin rest of styles */
+.header-logo {
+  width: 175px;
+  height: auto;
+}
+#banner {
+  margin: 15px 0;
+  width: 100%;
+  position: relative;
+}
+a.buttonlink {
+  background-color: #ccc;
+  font-size: 1.4em;
+  padding: .7em;
+  text-align: center;
+  float: none;
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -moz-transition: .3s ease all;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+}
+a.buttonlink:hover,
+a.buttonlink:active {
+  background-color: rgb(251, 55, 49);
+}
+.title-button-wrapper {
+  position: relative;
+  padding: 30px 50px;
+}
+#content {
+  font-size: 1.2em;
+  line-height: 1.4;
+}
+#content h2 {
+  line-height: 1.2;
+  text-align: center;
+  margin: 2em 0;
+  font-weight: 800;
+}
+.social {
+  list-style-type: none;
+  position: absolute;
+  right: 30px;
+  top: 00px;
+
+}
+.social li {
+  float: left;
+  margin-left: 10px;
+}
+.social a {
+  color: #333;
+}
+#features {
+  background-color: #333;
+}
+/* end rest of styles */
