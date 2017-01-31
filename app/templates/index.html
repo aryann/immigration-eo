@@ -136,43 +136,21 @@
 
     <h1>Signed,</h1>
 
- 	<div class="signatures-group row vertical-padding">
+    <div class="signatures-group row vertical-padding">
+    {% for row in signatures %}
+      {% for signature in row %}
         <div class="grid_4">
-       	  <h3>Full Name</h3>
-       		<p>Role
-			<br>Company</p></div>
-
-        <div class="grid_4">
-       	  <h3>Full Name</h3>
-       		<p>Role
-			<br>Company</p></div>
-
-        <div class="grid_4">
-       	  <h3>Full Name</h3>
-       		<p>Role
-			<br>Company</p></div>
-     </div>
-
-     <div class="row vertical-padding">
-        <div class="grid_4">
-       	  <h3>Full Name</h3>
-       		<p>Role
-			<br>Company</p></div>
-
-        <div class="grid_4">
-       	  <h3>Full Name</h3>
-       		<p>Role
-			<br>Company</p></div>
-
-        <div class="grid_4">
-       	  <h3>Full Name</h3>
-       		<p>Role
-			<br>Company</p></div>
-     </div>
-
+       	  <h3>{{ signature.name }}</h3>
+       	  <p>
+            {{ signature.title }}
+	    <br />{{ signature.company }}
+          </p>
+        </div>
+      {% endfor %}
+    {% endfor %}
     </div><!-- #end div .wrapper -->
-</section><!-- #end colored section -->
 
+</section><!-- #end colored section -->
 
 <!-- footer area -->
 <footer>
