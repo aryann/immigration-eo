@@ -1,10 +1,759 @@
-A,B,C
-A,B,C1
-A,B,C2
-A,B,C3
-A,B,C4
-A,B,C5
-A,B,C6
-A,B,C7
-A,B,C8
-A,B,C
+First and Last Name:,Company:,Job Title/Role:
+Omid Kordestani ,Twitter Inc.,Executive Chairman 
+"Sam Heidari, Ph.D.",Quantenna ,CEO 
+Ali Partovi,"Airbnb, Dropbox, Uber",Investor
+Hadi Partovi,Code.org,Co-Founder and CEO
+Firouz Naderi,NASA's Jet Propulsion Laboratory,Former Director of Solar System Exploration
+Mostafa Ronaghi,illumina,CTO
+Bobby Yazdani,Cota Capital,Managing Partner
+Alex Aravanis,GRAIL,"Head, R&D"
+Parnian Barekatain,SolveCity,CEO
+Vikram Bajaj,GRAIL and Verily,Chief Scientific Officer (GRAIL). Co-founder and Chair of Science Board (Verily).
+Blake Lawit,LinkedIn,"Vice President, Legal"
+Arya Behzad,Broadcom,Fellow / VP of engineering
+Luiz Barroso,Google,VP of Engineering
+Amir Gomroki,Ericsson,"VP, Engineering"
+Babak Pahlavan,Google,Senior Director of Product Management
+Ted Lazarus,Google,"Director, Legal"
+Jalil Kamali,Samsung,Director
+Laura Rooklin,Google,"Director, Real Estate and Workplace Services"
+Hojr Pisheh,Google,Project Lead
+Semira Moslem,Google,Finance Recruiter
+"Hadi Zadeh, PhD",Google Inc.,Hardware Engineer
+Yasaman Khazaeni,IBM,Research Staff Member
+Anahita Tafvizi,Google Inc,"Finance Manager, YouTube"
+Kamak Ebadi,Santa Clara University,Ph.D. candidate Space Robotics
+Alireza Bitaraf,Facebook,Technical Project Manager
+Piran Zarifian,Zarifian Inc.,CEO
+Sina Hassani,Google,Software Engineer
+Cyrus Moallem,ERG,Hardware test engineer 
+Mammad Mahmoodi,Open Data Science,Executive Director
+Hamid Ghaednia,Auburn University,PhD Candidate in Mechanical Engineering Department
+Hasan Nikopour,HDR,Bridge Engineer
+Nishi Waghray,"Google, Inc.",Financial Analyst
+Shahin Hazrati,Canadian Economics Association,Senior External Affairs Correspondent
+Keivan Loghmani,Accenture ,User Experience Associate Manager 
+Eiman Zolfaghari,Uber,Mobile Engineer
+Amir Aavani,Google,Software Engineer
+Mahnaz Roshanaei,Toshiba America Research Inc,Research Scientist 
+Nima Pakravan,Apple,Engineering Program Manager
+Jean-Philippe Ponnelle,Google,Senior Financial Analyst
+Ali Abdollahi,Apple,Technical Writer
+Amir Niazi,NavVis GmbH,Technical Account Manager
+Mohamad Amin Salmani,Varentec Inc,Senior power system engineer 
+Siamak Tazari,Google Inc.,Senior Software Engineer
+Marzieh Parandehgheibi,NextEV,Senior Data Scientist
+Mahshid Fardadi ,Dmf lighting ,Advanced research engineer 
+Zoya Asgari,SAS Inc,Data Scientist 
+Anna Sard,Google,Financial Analyst
+Alison stump,AppNexus,Software Engineer
+Nargol Rezvani,Cisco,Senior Data Analyst 
+Farshad Ramezan pour safaei,Robert Bosch,Research Scientist
+Niloufar Pourian,Intel ,Algorithm Engineer
+solmaz torabi,Google,program manager 
+Mahsa babaei ,Stem,Qa Analyst 
+Mahmoud Amini,Apple,Senior Manager of Product Development
+Ameneh Emrani,Amazon.com,Senior Finance Manager
+Sara Marashi,Apple Inc.,WiFi QA Engineer
+Javad Azimi,Microsoft,Senior Applied Scientist
+Ahmad Rahmati,"Apple, Inc.",Wireless Technologies
+Masoud Loghmani,Google,Product Manager
+Devin Byrne,Google,Sr. Financial Analyst
+Darius Ameri,Google,Agency Development Manager
+Sanjeev Kumar,Google,Global Brand Solutions Lead
+Zoe Jerchower,Google,Human
+Dipesh Shah,Google,Manager - Media Incentives
+Farzam Sajed,Google ,HW Engineer
+Lisa Duncan,Google,Editorial strategist
+Daniel Perez,Google,Analyst
+Mohammad Sotoodeh,Google,Staff Hardware Engineer
+Sina Bonyadi,Entegris,Senior Scientist
+Mohammad Karami,Google,Software Engineer
+Sara Bitetti,Google,Global Solutions Lead:  Programmatic Video
+Parastoo Qarabaqi,Opera Solutions,Data Scientist
+Louis Oamar,Google,Financial Analyst
+Sarah New,"Google, Inc.",ABP
+Jonathan Stone,Googe,Global Brand Strategy Lead 
+Negar Saei,Google,Program Manager
+Nima Hakami,Google,Software Engineer
+"Vahid Arbab, Ph.D.",Dex Media,Lead Data Scientist
+Claude London,Google,Director Yield Solutions
+Margaret Graham,Google,ABP
+Humberto Iglesias,Google Inc,Discovery Staff Attorney
+Mira Edelman,Google,Senior Counsel
+Steven Tran,Google,Staff Attorney
+Cyrous Jame,Google,Senior Finance Manager
+Sam Wise,AppNexus,Analyst
+Moe Mizukami,"Google, Inc.",Legal Discovery Project Manager
+Aishwarya Raghavan,Google Inc,Finance Analyst
+Emily Wood,Google,Discovery Staff Attorney
+Vi Do,Google,Global Product Expert - Video Ads
+Hosna Akhlaghpour ,THINK Surgical,Senior Biomedical Design Engineer
+Christine Safreno,Google,Discovery Staff Attorney
+Benjamin Malthus,Google,Finance Manager
+Danielle Reed,Google,YouTube Partner Sales 
+Scott Niedzwiecki,Google Inc.,Discovery Staff Attorney
+Navid Naderi Alizadeh,Intel Corporation,Research Scientist
+Victoria Oliver,Google,Legal Project Manager
+Amin Khajeh,Braodcom Ltd,Principal Scientist
+Pooya Ehsani,Google,Software engineer 
+Maral Khosroshahi,Konica Minolta,Software engineer
+Catherine Lewi,Google,Global lead
+Leslie Altherr,Google Inc.,"Sr. Manager, Legal Specialist"
+Neda Mirian,Google,Software Engineer
+Reza Nasiri Mahalati,Apple,Senior Hardware Design Engineer
+Emily Peltz,Amazon,Regional Finance Manager
+Joelle Tramel,Google,Global Solutions Lead
+pooria koleyni mameghani,Amazon,Network development engineer 
+Sina Monfared,Amazon,Software Development Engineer
+Mohamed Usama Baioumy,Amazon,I18n Software Engineer
+Abdul Muqtadir Mohammed,Amazon Inc.,Software Development Engineer
+Salmeh Vakilian,Amazon,"Manager, Account Management"
+Shenaz Zack,Google,SR. Product Manager 
+Adam Barea,Google Inc.,"Director, Legal"
+Shadab Siddique,Amazon,System Engineer
+Liz Lee,Google,YouTube Advertising
+Faezeh Rad,Sprinklr,Learning & Performance Manager 
+Munir Mahmood,Amazon Inc.,Software Development Manager
+Laura Book,Google,Software Engineer
+Hafsa Taskeen,Amazon,Business Analyst
+Azmat Aziz,Amazon LLC,Account Representative
+Micheal Brandt,Amazon,Finance Manager
+Navid Oskouipour,Amazon,Software Developer Engineer
+Jesse Macias,Google,Attorney
+Alireza Ali,Google,Project Lead
+Yassar,Amazon,Software Manager
+Soheil Jazayeri,Amazon,Software Developer
+Ali Ebrahim Nejad,Cornerstone Research ,Associate
+Soheil Bahrampour,Bosch LLC,Research Scientist
+Jessica Lewis,Google,BPP Certification Coordinator 
+Mahla Rahiminejad,Palo Alto Networks,Data Engineer
+Dani Wolinsky,Google,Global Product Lead
+Bobak Azarbayejani,Amazon.com,Software Engineer
+hedieh ekhlasi,Leica Geosystems,Software Engineer
+Behzad Biglarbegian,Apple,IC design Enginner
+Haitham Gad,Amazon,Software Development Engineer
+Tara Roudi,Google Inc.,Operations Specialist
+Kayvan Mosharaf,Audible/Amazon,Software engineer
+Wesley Chen,Google,Finance Manager
+Rekha Natarajan,Google Inc. ,Finance Project Manager
+Yuriy Frenkel,Leica ,SQA Engineer
+Yasmin Green,Jigsaw,Director Research and Development 
+Saman Zarandioon,Amazon,Software Engineer
+Jafar Amin,Epitec,Data Scientist
+Alborz Geramifard,Amazon,Senior Research Scientist / Manager
+Julie Meurer,Google,Financial Analyst
+Hitesh Lala,Leica Geosystems,Cloud Systems Developer
+Ryan Stonehouse,Google,Head of Global Media Planning
+Amir Rashidinejad,Infinera Corporation,Senior Optical Engineer
+Adham Borumand,Kahkeshan Hamrah,Manager
+Sadaf Nasir,Amazon,HR Program Manager
+Dena Karari,Palo Alto Networks,Management 
+Mansoureh Takaffoli,ServiceNow,Senior Software Developer
+Andre Golueke,Google,Project Manager
+Mikayla Cameron,Google,HRBP
+jennifer chang,"google, inc","head of global operational efficiency, brand"
+Peggy Jean-Louis,AppNexus,"Project Management Lead, Certificate Programs"
+Ali Murtada,"LinkedIn, Inc.",Sr. unified Communications Engineer
+Ladan Rabieekenari,Google,Software Engineer
+Milad Gholami,Groupon,Search Relevance Engineer
+Mobin Yahyazadehfar,DuPont,Rearch Scientist
+Edward Sun,Leica-Geosystems,QA Engineer
+Navid Alamatsaz,LinkedIn,Senior Network Engineer
+Shariar Makarechi,EDG2,VP
+Elae Makarechi,N/A,Lecturer
+Ali Naddaf,Google,Software Engineer
+Makesha Patterson,Google,Litigation Counsel
+Jennifer Blackstone,Google,Senior Counsel
+Tarek Abu Jabarah,Amazon,Technical Program Manager
+Rodney Pruitt,LinkedIn/Microsoft,Engineer
+Yaser Khalighi,Ericsson,Manager of Data Analytics 
+Taha Kowsari,Google Inc.,SWE/ Software Developer
+Vinod Katepally,LinkedIn,Business Operations
+Laila Baniahmad,KLA -Tencor ,Manger of Electrical Engineering 
+Zahra Abbasi,Ericsson,Research Engineer
+Cesare Cremona,Google,"Director, Finance"
+Meghan Landrum,Google,Senior Counsel
+Arezou Keshavarz,Google,Software Engineer
+Darren Parsons,Google,Legal Operations
+Cathy Miller,LinkedIn,IT Manager
+Francisco Lopez,LinkedIn ,Change Management Analyst
+Milad Mohammadi,Apple,Data Scientist - Software Engineer
+Kaveh Shahabi,Google Inc.,Software Engineer
+Evan Won,LinkedIn,Systems Support Analyst II
+Shameen Bararpour,KLA-Tencor,Sr. Buyer/Planner
+Alena Klompus,"AppNexus, Inc.",Senior Facilities Specialist
+Payam Lajevardi,Qualcomm,Staff Engineer
+Christopher Packard,LinkedIn,Streaming Producer
+Rebecca Hardy,Google,Global Operational Efficiency Lead
+Saman Saeedi,Oracle,Senior member of VLSI Research Group
+Siavash Saheli,KLA-Tencor,Mechanical Design Engineer
+Maryam Manouchehri,Kelar Pacific,Modeler
+Sepehr Hejazi Moghadam,Google,"Head of R&D, K-12 Education"
+Alireza Dastgheib,Alphabet Inc,Hardware Engineer
+Samaneh Kazemi Nafchi,AIR Worldwide,Software Engineer III
+Andrew Cunningham,LinkedIn,Sr. Systems Engineer
+Samaneh Sadighi,Applied Materials,Scientist
+Christian Ramos,LinkedIn,Mobile Support Technician
+Laila Jaber Ansari,McKinsey and company,Associate
+Sumya Hesami,Georgetown LL.M. Candidate; International Business and Economic Law,Student
+Amaan Mehrabian,Google Inc.,Data Scientist
+Ali Afrasiabi,AECOM,"Engineering Manager, San Francisco Bay Area"
+Michelle Thomasson ,LinkedIn,Video Producer
+Marjan Yahya,Instart Logic,Head of Security Products
+Ashish Patro,Apple Inc.,Engineer/Research
+Corey Robins,Nest Labs,Head of Marketing Planning & Strategy
+Rohit Mundra ,Apple Inc.,Software and Analytics Engineer
+Hadi Sadrsadat ,RSG,Consultant
+Emily Crowley,Alphabet Inc,Investor Relations
+S. Sam Sepah,Google,Global Staffing Program Manager
+Behnoosh Nemati,Apttus ,Sr. Business Analyst (Software)
+Babak Behzad,Altiscale Inc.,Performance Lead
+Dan Mills,LinkedIn,Senior Producer
+Ruth Wang,Google,Tech Advisor
+Matineh Shaker,Bonsai AI,Artificial Intelligence Scientist
+Kenneth J. Canobbio,LinkedIn Corp,"Sr Technical Program Manager, Global Operations"
+Maura O'Sullivan,Alphabet Inc.,Risk Advisor
+Kevin Knifsend,Leica Geosystems,Software Engineer
+Bhanu Vattikonda,Apple Inc,Software Engineer
+Grant Elliott,Amazon.com,Finance Manager
+Shirin Eghtesadi,Google,Manager
+Nozar Azarakhsh,Google,Engineer  / Manager
+Morteza Zadimoghaddam,Google Inc.,Senior Research Scientist
+Michelle Kraemer,Google,Global BD
+Afsaneh Shirazi,Google,Staff Software Engineer
+Ghazal saheli,Applied mayerials,Scientist
+Andrew Noble,GNS Healthcare,Data Scientist
+Nan Zhang,MS,SDE
+Azadeh Moini,Stanford PhD,Sensor design engineer
+Faezeh Salehi,Chartboost,Data Scientist 
+Fahimeh Raja,Microsoft,Senior Software Engineering Manager
+Sampat,Texas Instruments,Design Engineer
+Srivani Narra,Cisco,Technical Leader
+Michael Finn,Linkedin,Business Analyst
+Salman Mirghasemi,Google Inc.,Software Engineer
+SEYED MORTEZA NIKZAD,AECOM,SR. MECHANICAL ENGINEER
+Rick Guerrero,LinkedIn,IT Business Engagement
+Rodrigo Carone,Google,Global Product Lead
+Ingrid Franzen,Linkedin,IT
+Nastaran Baradaran,Citrix Systems,Principal Software Engineer
+William Fotsch,N/A,N/A
+Alex Aravanis,GRAIL,"Head, R&D"
+Soraya Taghavi,Algoriz,CEO
+Soheil Kolouri,HRL Laboratories,Research Scientist
+Deepti Reddy,Startup,CEO
+Parastoo Delgoshaei,University of Maryland,Research Assistant 
+Diego Ramallo,Insight Data Science,Data Scientist
+Brett Koons,Google,Finance Manager
+Sofia hamid,Bank of America ,AVP Lending officer 
+Jeffrey Silverman,Samba TV,Data Scientist
+Shadi Eshghi,Genentech,Associate Scientist
+Trisha Anya ,Tech company,Artist
+Gautam Inaganti,Google,Commodity Manager
+Anna Davda,Google,Human Resources Business Partner
+Reza Khiabani,Google,Senior Engineer
+Rick Rivera,Google,Recruiter
+Marnie Florin,Google,Learning & Development Specialist
+Aleksandra Mirisola,Google,UX Researcher
+Mariano Curat,Google Inc.,Corporate Paralegal
+Timothy Lew,Insight Data Science,Fellow
+Amir khalpoir,OpenPath,Principle Software Engineer
+Jasmine Vallejo-Love,Google Inc.,HR Business Partner Manager
+Monica Montefiore,Google Inc,REWS Business Partner
+Carlos Restrepo,Google,Account Executive
+Ryan Garza,Google,Tech Specialist 
+Yogesh Srinivas,Self,Program Manager
+Miguel Guevara ,GOOGLE,Program Manager 
+Brendan Chan,Google,Program Manager
+Maggie Ruiz Lum,Google,Tax Manager
+Amre Metwally,Google,Strategist
+Michael Rojas,Google,Technical Account Manager
+Gabriel Leon,Google Inc.,Strategic Partner Manager
+Pedram Lajevardi,Robert Bosch LLC,Lead Engineer
+Jaroslav Delapedraja,Google,Site Reliability Manager
+Josue Gonzalez,Google,Inside Sales and Customer Accelerate
+Angel Raposo,Google,Global Technical Lead
+Phillip Hedayatnia,HybridSite Creative,Chief Executive Officer
+James Gomez ,Milestone Technologies - Vendor at Google,Chrome Escalation Specialist 
+Sanaz Sattari-Tabrizi,Imaginary Forces,Producer
+Nicolas Barradas,Google,Legal Assistant
+Nicha Ratana,Google,Associate Product Marketing Manager
+Beth Boone,Google,"Program Manager, User Experience"
+Kayvon Banisalam,Hired,Account Executive
+Lesley Ying,General Assembly,UX designer 
+Darius Kazemi,Feel Train LLC,Worker-Owner
+Cinthya Mohr,Google,UX Manager
+Vivek Raghunathan,Google,Distinguished Engineer & Lead for YT Ads Engineering
+Gloria Kwan,Google,Project Manager
+Juan D Abello,Google,Cloud Customer Engineer
+Samira Rahimi,Microsoft,Art Director 
+Amina Rehman,apple Inc ,Executive admin HR OPERATIONS 
+Austin Swift,Google,Channels Specialist
+Kian Katanforoosh,Stanford,Graduate student
+Soroosh Mariooryad,Google,Software Engineer
+Yasi Homyoun,Illumina,biochemist
+Noushin Faraji,Legrand,Quality Assurance Engineer
+Elizabeth Wheeler,Individual,Product Designer
+Gabe Kronstadt,Google,Finance Director
+Adam Nekimken,Stanford University,Graduate Student
+Ahmadreza Hedayat,Institute of Electrical and Electronics Engineers,Systems Engineer
+Ehsan Ardestani ,FutureWei,Computer Architect 
+Khalif Oliver,Google,Compliance Advisor
+Houman Esmailpour ,N/A,N/A
+Jaime Casap,Google,Education Evangelist 
+Jacqueline Esmailpour,Blue shield,Sales agent
+Siamack Haghighi,Samsung Semiconductor Inc,Principal Architect
+Farnoosh Johnson,Phase2 ,Developer 
+Benyamin Moradzadeh,Pacific Gas and Electric,Senior Integrated Resource Planning Analyst
+Hossein Mousavi,VERB Surgical (part of Google Life Sciences),Research Scientist
+Kiavash Faraji,Google,Hardware Engineer
+Meral Shirazipour,Ericsson,Sr. Research Engineer
+Parham Khoshkbari,Google,Project Executive
+Katrina Passarella,Google,Software Engineer
+Sina Jafarpour,Facebook,Research Scientist
+Albert Meixner,Google,Software Engineer
+Osman Koyuncu,Google,HW Engineer
+Samiyeh Mahmoudian,Intertrust technologies corporation,Data scientist 
+Daniel Finchelstein,Google,Software Engineer
+Haydeh Shirmohammadi,Shir Consultants,CEO
+Meisam Heidarpour Roshan,Google,Hardware Engineer
+Eric Shiu,Google,Hardware Engineer
+Atif Haque,LinkedIn,Sr technical security manager
+Patrick Berny,Google,Technical Solutions Consultant - Chrome OS
+Arash Rezaei,Samsung Semiconductor Inc.,Senior Performance Architect
+Laura Rooklin,Google,"Director, Real Estate and Workplace Services"
+Mahshid Maleki,Mark Thomas Inc & Company ,Senior Design Engineer 
+William Golemon,Google,Program Manager
+Brian Conner,Nest,Hardware Engineer
+Nima Rouhi,Fairchild Semiconductor,Principal Engineer
+Golshan Golnari ,3M,Senior data scientist 
+Jacobi Grillo,Alphabet,Mechanical Engineer
+Jack Etmami,Western Digital,Principal Engineer
+Naba,F5 Networks,Software Engineer 
+Ehsan Mir,Microsoft,Reliability Engineer 
+Mo Bidabadi,Apple Inc.,Senior Software Engineering Project Manager 
+Yasaman Samei,synopsys,Sr R&D Engineer
+Nikkie Imani ,Self Employed ,Accountant 
+Mary gz,SMI,Design engineer
+Anees Hasnain,Google,Recruiter
+Candrice Oliver,Junior Achievement of Northern California,District Director 
+Cheng Gu,Google,Software Engineer
+William Woodthorpe,Google ,Partner Manager
+Somchanok Prat Prathnadi,LinkedIn,IT Architect
+Houshmand Shirani-Mehr,Snap Inc,Data Scientist
+Sagar Uttamsingh,Google,Supply Planner
+Reza Nasiri Mahalati,Apple,Senior Hardware Design Engineer
+Behnam Esfahbod,Self-employed,Software Engineer
+Madeleine Bea,LinkedIn,Events Associate
+Ben Cruz,Google,Training Producer
+Farshad Rostamabadi,Palo alto networks,sr software manager
+bety loghmani,university,teacher
+Behrouz Rabiee,Apple,Software Engineer
+QIULING ZHU,GOOGLE,HARDWARE ENGINEER
+Heather Hurford,LinkedIn,Live Video Producer
+Gilda Majidi,Startup,Product Manager
+Giraldo Hierro,Google,Head of Customer Engineering
+Bahar Bazargan,HPE,Business Analyst 
+Saghar Hosseini,Microsoft,Data Scientist
+Bahareh Samsami,Visa,Attorney 
+Gabriel Alatorre,Google,Software Engineer
+Hossein Fakhrai-Rad,BaseHealth ,Founder and Chief Scientific Officer
+Rich Winslow,Sojern,Data Science
+David Bastidas,Google,Program Manager
+Pirooz Chubak,Apple Inc.,Software Engineer
+Farhad Heydarian,Freelancer,Graphic designer
+Iraj Saniee,Nokia,"Group Leader, Mathematics & Algorithms Research"
+Babak Tousifar,Columbia University ,Clinical Research Associate 
+Jon Kurtas,Google,RF Systems Engineer
+Joana Monteiro,Google,Strategy and Ops
+Hamdi Abdulle,Amazon,Financial Analyst
+Olivier Glaser,Google,Partner Operations Specialist
+Elise Birkhofer,Google,Global Program Manager
+Saeed Shamshiri,Qualcomm,Staff Engineer
+Joseph Dao,Google Inc,Hardware Engineer
+Kiera Dwyer,Individual,Individual
+Kelsey Livingston,Google,Experience Design Lead
+James Mackenzie,Google,Researcher
+Brian Maier,LinkedIn,Product Manager
+Linda Nguyen,Google,"People Manager, Google Cloud Support Operations"
+Oktie Hassanzadeh,IBM,Research Scientist
+Roberto Paniagua,Google Inc,Senior Account Manager
+Andy James,Google,Software Engineer
+Christopher Montfort,Google Inc. ,Program Manager
+Jeevan varughese,Linkedin,Senior IT manager ( network and UC)
+Jose Nazario,Google,Tech Program Manager
+Seyed Nourbakhsh,Sabre,Operation Research Analyst 
+Anahita Imanian,University of Maryland,Research assistant (PhD)
+wesley kennedy-sita,The Mullings Group,Recruiter
+Andrew Pavacic,Google,Hardware Engineer
+Kathryn Ajuria,Google,Global Audience Lead
+Amir Sharifi,UMD,Researcher
+Ana Gutierrez ,Google,Senior Account Manager
+Sabrina Ruiz,"Google, Inc.",Transportation Program Manager
+Soroosh Sohangir,Dell,Senior Software Engineer
+German Santana,Google Inc,Partner Manager
+Omid Morshed,Google,Business Development Analyst
+Susan Jasper,Google,"Managing Director, Global Brand Solutions"
+Alejandro Duque,YouTube,Strategic Partner Manager
+Myles Watson,Google,Software Engineer
+Andressa Michelotti,Google Inc,Legal Specialist
+Emily Thomas,Adecco,Online Channels Specialist at Google 
+Shahrzad Rastegar,Rastegar Imports LLC,CEO
+Scott Johnson,Google,Hardware Manager
+Pooyan noori,Datis construction,Owner
+Kamilah Weeks,Google,Channels Specialist
+Erica Furer,Google Inc.,Business Analyst
+Roland Montalbo,"Nest Labs, Inc. ",Engineering Program Manager 
+Bianca Okafor,Google,Multicultural Program Specialist
+Penny Walsh,Nest Labs (Google),Administrative Business Partner
+Dona Bellow,"Google, Inc.",Legal Removals Associate
+Michael Zamani,Apple,Software Engineer
+Dr. Vahid Khalilzad,MIS,Research and Development Manager
+Matthew Smith,Nest Labs,Software Engineering Manager
+Mariko Ito,Google Inc.,Business Analyst
+Colin Kellogg,Google,Legal Assistant
+Alejandro Gomez-Barbosa,Google,AdWords Account Strategist
+Ron Mehrdad,"Castle Rock Designs, Inc.",CEO
+Ricardo Horna,Google,Talent Channels Specialist
+Orlando Perez,Google,Brand Strategist
+Alireza Modafe,Tesla Motors,Staff Touch Engineer
+Carlos Castro,Google,Software Engineer
+Yusuf Scott,Amazon,Technical Support Engineer
+Aida Vega,"Google, Inc.",Diversity Specialist
+Karl Garcia,Google,Senior Network Engineer
+Andrew Max,Nest Labs,Certification and Compliance Engineer
+Sam Kortz,Google,Project Manager
+Abigail Klein,Google,Software Engineer
+Kevin Peterson,Google,Senior Engineer
+Jaime Rodriguez,Nest,Integration Engineer
+Reza Fathzadeh,.,CEO
+Michael Solomon,Google,Packaging Engineer
+Bobby Yazdani,Cota Capital,Managing Partner
+Ali Sallehy,PwC,Sr. Manager
+Sarah Henderson,Google,"Program Manager, Engineering Education"
+Hemil Patel,Google,Support Specialist
+Azadeh Norouzi ,SWA,ITS Engineer
+Benjamin Freedman,Google,Strategist
+Jonathan Coveney,Google,Software Engineer
+Jeff Brayshaw,Google,Hardware Engineer
+Caitlin Donhowe,Nest Labs,Software Engineer
+Stephen Kloder,Google,Software Engineer
+Sarah Sachs,Google,Software Engineer
+Erin Gatherum,Google,Staffing Manager
+Sherry Shariat,Parsons Brinckerhoff ,Transportation Planer 
+Camilo Clavijo,GOOGLE,Sales Executive
+Gabriel Redner,Google,Software Engineer
+Rohit John,Apple Inc.,Engineering Program Manager
+Joe Rosenberg,Google,Strategic Partnerships
+Lawrence Cole,Google,Manager
+Alberto Fabian,Google,Digital Marketing Data Analyst
+Rohit George John,Apple Inc.,Engineering Program Manager
+Adrian Rodriguez,Google,"Platform Lead, Online Partnerships Group "
+Emilio Armando Garcia,Google,Staffing Services Associate
+Jacque Lyn Lindeman,Google,Events Manager
+Michael Rosett,Google Inc.,Sr. Engineering Manager
+Arnold Feldman,Google,Hardware Engineer
+David Ressler,Google,Frontend UX Engineer
+Joshua Mooney,Nest,Digital Support Manager
+David Elrom,Google,Software Engineer
+Puja Chokshi,Google,Business Development
+Paul Husted,Google,Engineer
+Andrew Abo,Google,Hardware Engineer
+Hamid Abolhassani,Apollo Education Group,VP of Corp apps
+Rahul Thakur,Google Inc.,Hardware Engineer
+Elizabeth Michel,Google,Software Engineer
+Ebra Yavari,Tesla,Quality Engineer
+Netta Peterbursky,Google,Software Engineer
+Edward Ruben,Google,Software Engineer
+Pia Chamberlain,Google,Technical Writer
+Sara Garcia,Google,Administrative Business Partner
+Natascha Bock,"Google, Inc",Group Product Marketing Manager
+Stephen Loucel,Google,Support Expert Lead
+Shantal Poovala,Google Inc.,Sr Manager Legal Online Operations
+Miriam Nahum,Google,Strategic Partner Development Manager
+Paul Stewart,Google,Engineer
+Adi Aron-Gilat,Alphabet,Head of Business Strategy
+Francesca Pujals,Google,Sr. Insights Lead
+Martin Bilello,Google,Software Egineer
+Jacques C. Rudell,University of Washington,Associate Professor (w/tenure) of Electrical Engineering
+Ethan Bodenstein,Google Inc. ,Legal 
+Edwin Fuquen,Google,Software Engineer
+Juan Pablo Murgueitio,Google,Financial Analyst - Google Cloud Customers
+Ben Packer,Google,Software Engineer
+Amanda Del Balso,Google,Program Manager
+Monique Mercado,Nelson Staffing for Google,Partner Operations Associate 
+Ray Paleg,Google,Recruiting Coordinator
+Aria Tedjarati,Stanford University,Electrical Engineering Masters Student
+Kim Cooper,Alphabet Inc.,Executive Assistant
+Christie Wood,Google,Staffing Services Associate
+Chad Pingel,"Google, Inc.",Staffing
+Michael Duarte,YouTube,Software Engineer
+Anthony Nichols,Google,Legal Removals Associate
+Natasha Vlahovic,Google,Financial Analyst
+Gwendolyn van der Linden,"Alphabet, Inc.",Staff Software Engineer
+Jeff Wheeler,Nest Labs/Google,Engineer
+Stephen Beahon,Google,Product Operations
+Kara Moscoe,Google,Staff Technical Writer
+Monica Garcia,Google,Recruiting Coordinator
+Ruthie Tane,"Google, Inc.",Operations Specialist
+Justin Glavin,LinkedIn,Software Engineer
+Negar Rahmati,Google,Software Engineer
+Leila Bazargan,Grail Inc.,Scientist
+Jillian Warner,Google,Strategic Partner Manager
+Adi Narayanan,Nest,Sr. Materials Engineer - Product Design
+Lucy Pinto,Google,Business Inclusion Program Manager
+Marcus Albonico,Google Inc,Product Designer
+Michelle Vidensek,Google,Instructional Designer
+Aryan Naraghi,Google,Software Engineer
+Catherine Chavez,Google,University Specialist
+Wendy Ginsberg,Google,Product Manager
+Alyssa Ablao,Google,"Staffing Services Associate, Recruiting"
+Sam Panzer,Google,Software Engineer
+Mark Fralick,Google,Technical Lead
+Adriana Arevalo,"Google, Inc.","Staffing Services Associate, Recruiting, Americas"
+azordegan amir,klac,mktg
+Ozzie Jahadi,PLL,Perfusionist
+Behnam Behroozpour,Bosch Research and Technology Center,Research Engineer
+Emily Watson,Microsoft,Designer
+William Barrett,"GRAIL, Inc.","Director, Intellectual Property"
+Anne Walsh,University of Southern California - Keck School of Medicine,Faculty
+Adam Buchoff,Google,Software Engineer
+Hyunsung John Kim,Grail,Bioinformatics Scientist
+David Lidsky,Empower Semiconductor,SVP Engineering & CTO
+Campbell Pool,LinkedIn,Senior Systems Engineer - Virtualization
+Hossein Talebi,Google,Software Engineer at Research
+Ruth Mauntz,GRAIL Bio,Research Associate
+Aubrey Harris,Google,Training Coordinator
+Jessica Bell,Google,ABP
+joyce lee,Google,Global Partnerships
+Joshua Honomichl,Thermo Fisher Scientific,Senior Technical Writer
+Mohammad Izadi,Google Inc,Software Engineer
+Amir Amirkhany,Samsung Semiconductor Inc,Director of Engineering
+Emma Fallone,Google,Recruitment Coordinator
+Venous Chinichian,Zales,Director of Sales
+Bahram Talebzadeh,EPIC,VP Information Technology
+Rebecca Reizner,Google,Software engineer
+Hesameddin Ilatikhameneh,Purdue University,PhD Research Assistant
+Homayun Mehrabani,"HJ Science & Technology, Inc.",Staff Scientist
+Samira Guccione,Stanford University,Faculty
+Will Buenzle,LinkedIn,Systems Engineer
+Anahita Shayesteh,Samsung Semi,Senior Staff Engineer
+Nathalie Salcedo,Google,Program Manager
+Keith Onodera,Qualcomm,RF IC design engineer
+Olivia Ho,Google,Staffing Services Associate
+Sina Torabi,Mosaikx,CEO & Co-Founder
+Emad Samadiani,Google Inc,Mechanical Engineer
+Mojtaba Seyedhosseini,Google,Software Engineer
+seid alireza razavi majomard,Aquantia,principle DSP engineer
+Nima Shojaee,Grailbio,Scientist
+Laura Hurtig,Google,Program Manager
+Ashkan Rasooli,VitalConnect Inc.,Principal Software Quality Engineer
+Ramak Ravanbakhsh,Verizon,Senior Product Manager
+Daniel Pitt,Palo Alto Innovation Advisors,President
+Marissa Reda,"Google, Inc.",Supply Chain Project Manager
+Majid Aghababazadeh,illumina,Associate Director/Principle Engineer II
+Mihnea Elian Dumitru,Alphabet Inc,Software Engineer
+Tessa Johnson,Google,Channels Specialist
+Mohammad Hekmat,Samsung,Senior Staff Enginner
+Ivan Janatra,Google,Software Engineer
+Akram Ahmadi,Valeo ,System engineer
+Bharath Jasti,google,s/w engineer
+Emily Lazarus,Google,"Program Manager, Supply Chain"
+Kristin Kassaei,Google,L&D Business Partner
+Henry Wang,Google,PM
+Joe Abo,retired engineer,Electronics Engineer/Project Lead
+Ana Cantu,Google Inc.,Global Social Media Lead
+Sasi Inguva,Google Inc,Software Engineer
+Nicole Nejati,NBN Communications LLC,Principal
+Sandra Mui,self-employed,writer
+Foad Mashayekhi,Illumina,Sr Scientist
+Samuel Lessard,"Google, Inc.","Legal Assistant, Adwords Trademarks"
+Poorya Sabounchi,Illumina,Staff Engineer
+Desiree Shank,Future College Fund,CEO/Founder 
+Vish Shetty,LinkedIn,Sr. Staff Program Manager
+Ali Maheri ,E2 Energy Inc. ,CEO 
+Adrian Wan,Google,SWE
+Bruce Wicinas,Hexagon Geosystems,Senior Engineer
+Narges Baniasadi,Roche,Vice President 
+Anca Burdea,WhatsApp,Legal Project Manager
+Ofer Shacham,Google,Hardware Engineer
+Gaby Omenn,Google,Program Manager
+Nicolas Pena,Google,Software Engineer
+Sam Ahmadpour,Ahmadpour Law,Owner/Attorney
+Gordon Cann,GRAIL,Staff Scientist
+James Ausman,Google,Program Manager
+Sonia Fajardo,Google,Software Engineer
+Claudine Brooks,Google,Administrative Business Partner
+Melissa Mokhtari,Blockchain at UC Berkeley,Consultant
+Heather Cassano,Google,Director
+Homa Saleh,WiActs,VP
+"Golnaz Aubin, MD",Virtual Radiologic,"MD, Radiologist"
+claire barry,google,visual designer
+Alexander zar,Socal accessory production inc ,CEO 
+Roshan Pourabdollah,"ThoughtWorks, inc",Analyst 
+Rosario Molina,Google,Channels Specialist
+RAMTIN DAVANLOU,ACCENTURE,MANAGER
+Chantrelle Johanson,Google,Staff UX Researcher
+David Schneider,"Google, Inc",Hardware Engineer
+"Majid Ghazi, MD",Center for Pain Medicine,President
+Marjan Davoodian ,Montgomery College ,Student
+Steve Mole,Intel,Software Manager
+Jeffrey Mielke,Google,UX Designer
+Keren Wasserman,Google,Paralegal
+Kahila Hedayatzadeh ,Vital Decisions. ,Marriage and Family Therapist. 
+Zack Phillips,Google,Interaction Designer
+Maria Grach,Google,user experience designer
+Michael Price,Google,Software Engineer
+Nicole Stein,Google,Software Engineer
+Adam Deher,Google,UX Designer
+Lindsay Hall,"Google, Inc",Software Engineer
+Amy Schulz,Google,Administrative Business Partner
+Nadav Ashkenazi,Google Inc.,Software Engineer
+Amalia Hawkins,Google,Software Engineer
+Patrick Leahy,Google,Quantitative UX Researcher
+Marissa Ferber,XO Group,HR Consultant
+Ian Roth,Google,Staff Software Engineer
+Teresa Fan,Google,Software Engineer
+Andrew Garrett,"Google, Inc.",Software Engineer (Google Classroom)
+Ruth Talbot,Google,Software Engineer
+Zifan Xiang,Google,Software Engineer
+Phillip Campion,Google,UX Designer
+David Hughes,Google,SWE
+Brenda McCarthy,Google / Alphabet,Senior Program Manager
+Yangguang Li,Google,UX Engineer
+Kelcey Rushing,Google,User Experience Designer
+Natalie Podrazik,Google,Software Engineer
+Richard Castagna,"Google, Inc",Software Engineer
+Ray Tawil,Google,Software Engineer
+Karen Feng,Google,software engineer
+Christopher Dollard,Google,Software Engineer
+Maryam Aly,Google,Software Engineer
+Christina Grasso,Google,Software Engineer
+Aaron Zemach,Google,User Experience Engineer
+Jorge Lugo,Google,Senior Software Engineer
+Yichen Huang,Google,Interaction Designer
+Molly Nacey,Google,Software Engineer
+Michael Baldwin,Google,Product Manager
+Mahsa babaei ,Stem ,Qa analyst 
+Allison Rutzel,Google,"Sr. Manager, User Experience"
+Shamik Chaudhuri,Google,Program Manager
+Hadjar Homaei,Teala,"Founder, CEO"
+Lauren vonNovak,Google,Account Manager
+Alex Hottenstein,Google,Technical Program Manager
+Beri Lee,Google,Product Manager
+Lilia Royanova,Google,UX Program Manager
+David Mansfield,Google,Software Engineer
+Beth Bergen,Google,User Experience Researcher
+Sepideh Bigdeli,Barry and Wynn Architects ,Job Captain 
+Jennifer Holland,Google Inc.,Sr. Program Manager
+David Olsen,Google,Senior Software Engineer
+Josh Danziger,Google,Software Engineer
+Ian Mackenzie,Arup,Software Developer
+Jixia Dai,Google,Software Engineer
+Kevin Xu,Google,Software Engineer
+Claudia Ruge,Google,User Experience Researcher
+Sanaz Ahari,Google,Director Product Management
+Allen Yang,Google,Product Manager
+Kara Levy,Google,Engineer
+Amitis samani,Aquent,Art director 
+John NA Brown,Adecco at Google,User Experience Researcher
+Saeid Ghafouri,Shoppin LLC,CEO and Cofounder 
+Samad Nasserian,"Cozymeal, Inc.",CEO
+Liu Liu,Google,Interaction Designer
+Lena Alston,Google,Software Engineer
+Lucas Pettinati,Google,Director of User Experience
+Samuel Wookey,Google,Software Engineer
+Jennifer Devins,Google ,UX lead
+Kevin Rabsatt,Google,Software Engineer
+Shantia pahlavan ,Supercolor digital ,Account payable 
+Stephanie DeMane,Google,Software Engineer
+Max Kessler,Google,Interaction Designer
+Brandon Sonoda,Google,Software Engineer
+Mustafa Balcioglu ,NATERA ,Associate Scientist 
+Shawn Xu,Ascend.io,Software Engineer
+Steven Nugent,Google,Software Engineer
+Ali Kafi,Applied Materials Inc.,"TQM,  Reliability and Quality "
+Meredith Clark,Google,Program Manager
+Kris Concepcion,Foursquare Labs,Software Engineer
+Anand Shah,Google,Product Manager
+Su Baykal,Google,UX Researcher
+Shawn Buessing,Google,Engineering Manager
+Rebecca Steelman,Google,Program Manager
+Brian Thomas Eck,"Google, Inc.",Sr. Staff Quantitative Analyst
+Shana Stanton,Google,Attorney
+Tyler Simmons,Foursquare,Sr. Director Sales Strategy
+Peyman Nilforoush,inPowered,CEO
+Morgan Henry,Foursquare,Data Analyst
+Victoria Tait,Google,Manager
+Rachel Farber,Google,Program Manager
+Elham nourbakhsh ,Situne,Technical Marketing 
+Albert Yau,Google,Localization Program Manager
+Kelly Moran,Google,Software Engineer
+James Pearson,Google,Localization Program Manager
+Naghmeh Kamalan,Caspio,Technical Account Manager
+Mohamad  Balaly,Space LORAL,Spacecraft Manager
+Mahvash Nejad,Topcon Positioning Systems,FA Engineer
+Joonseo Bae,Google,Interaction designer
+Nik Von Einselen,Google,Tech Lead
+Yasin khatami,Western digital ,Principal engineer 
+Vida Goudarzi,Satellite healthcare ,Dietitian 
+Adrian Marple,Google,UX Engineer
+Asal Vatan,Networking Company ,Tech Writer 
+Murphy Stein,Google Inc.,Software Engineer
+John Skidgel,"Google, Inc.",Staff UX Designer
+Shraya Ramani,MongoDB,Software Engineer
+Mike Honarvar,IFOS,Optomechanical and Research Engineer
+Amber Richter,Google,Quantitative Analyst
+Niharika Vempati Fani,Google,Program Manager
+Riccardo Valerio,Google,Interaction Designer
+Jody Shapiro,Startup,CEO
+Daniele Calabrese,Streamago ,Ceo 
+Charles Marc Gobeil,Google Inc.,Senior Software Engineer
+Benny Martinson,Google,Software Engineer
+Rhiana Blucker,Nest,Program Manager - Knowledge Management and Training
+Kenzley Alphonse,Google,Software Engineer
+Doug Geerdes,TEKSystems,User Experience Designer
+Sofia Qin ,Google ,User Experience Researcher 
+hamid  Rafiei,hamta partners inc ,owner 
+Tabitha Smith,Google,Technical Writer
+Ehsan Kamalinejad,Cal State University,Assistant Professor
+Juntao Wang,Google Inc.,Software Engineer
+Angel vossough,Cisco,TAC engineer
+Holl Liou,Google Inc,UX Designer
+Behrouz Rabiee,Apple,Software Engineer
+Daniela Navarro,Google,Program Manager
+Lindsay Moore,Google,UX Researcher
+Roshan Mehdizadeh ,Google / Alphabet ,Development Executive 
+Diane Chaleff,Google,Product Manager
+Shahin Edalati,Fitbit,Creative Director
+Sana Keshtkaran,Aspiranet,HR
+Stephanie Yang,Foursquare,Data Scientist
+Phil Matarese,Google,Software Engineer
+Rachel Zax,Google,Software engineer
+Sekhar Narayanaswami,Qualcomm,Principal Engineer/Manager
+Max Rebuschatis,Google,Software Engineer
+Luiz Pereira,Google,Software Engineer
+Dai Shi,"Foursquare Labs, Inc.",Site Reliability Engineer
+Rachel Lowden,Google,Software Engineer
+Lindsey chochola ,Infermedica,Ux advisor
+Mandana ashorali ,None,None
+Pegah Kamal,Hewlett Packard Enterprise,Social Media Manager
+Hossein Fakhrai-Rad,BaseHealth,Founder and Chief Scientific Officer
+Samar azari,Dahl Taylor and associates ,Electrical engineer
+Amin Ahmadi Adl,Microsoft,Data Scientist
+Mona Sergi,Google,Software Engineer
+Bradley Patrie,Google,Designer
+Elizabeth Scullin,Flatiron Health,Recruiter
+Lana Belkin,Google,Research Assistant 
+Akram Baharlouei,Qualcomm,Senior Engineer
+Leily moazami,Apptimize,Sales
+Jacqueline Parnell,Vaco,Payment Partner Support
+Navid Jalali Heravi,Microsoft,Software Engineer
+Diana Sanandaji,Diana Sanandaji Trust,None
+Erin Rosenbaum,Google,Senior Engineer
+Michael Tan,Google,Software Engineer
+Ralph Chelala,Google,Senior Software Engineer
+joanna castillo,astreya partners at google,project coordinator
+Kylie Poppen,Google,Interaction Designer
+Elham Kaviani,"Applied Materials, Inc.",Business Operation Management
+Talisa nejad,Comsol ,Engineer
