@@ -22,6 +22,7 @@ class MainPage(webapp2.RequestHandler):
       signatures = []
       with open(SIGNATURES_FILE) as f:
         reader = csv.reader(f)
+        next(reader)  # Skips the header.
         curr = []
         for i, row in enumerate(reader):
           if i != 0 and i % SIGNATURES_PER_ROW == 0:
