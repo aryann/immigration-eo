@@ -6,11 +6,13 @@ html, body {
 
 /* begin flexslider styles */
 .flexslider {
-  font-size: 5em;
   font-family: 'Stardos Stencil', cursive;
   background-color: rgb(251, 55, 49);
   color: #fff;
-  line-height: 1;
+  line-height: 1.2;
+}
+.flex-control-nav {
+  bottom: 0;
 }
 .flexslider .slides {
   padding: 1.8em 0;
@@ -30,17 +32,14 @@ html, body {
 /* end flexslider styles */
 
 /* begin rest of styles */
-.header-logo {
-  width: 175px;
-  height: auto;
-}
+
 #banner {
   margin: 15px 0;
   width: 100%;
   position: relative;
 }
 a.buttonlink {
-  background-color: #ccc;
+  background-color: #333;
   font-size: 1.4em;
   padding: .7em 1em;
   text-align: center;
@@ -48,9 +47,9 @@ a.buttonlink {
   position: absolute;
   bottom: -50px;
   left: 50%;
-  border-radius: 3px;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
@@ -81,11 +80,14 @@ a.buttonlink:active {
   position: absolute;
   right: 30px;
   top: 00px;
+  margin: 0;
+  padding-left: 0;
+  top: -10px;
 
 }
 .social li {
   float: left;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 .social a, .social a, .social a {
   color: #333;
@@ -108,7 +110,7 @@ a.buttonlink:active {
   z-index: 10;
   height: 80px;
   width: 100%;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #ccc;
   padding: 20px 50px;
 }
 .sitcky-cta-container .buttonlink {
@@ -121,5 +123,62 @@ a.buttonlink:active {
 }
 .counter {
   color: rgb(251, 55, 49);
+}
+.signatures-wrapper {
+  padding-bottom: 60px;
+}
+@media only screen and (max-width: 768px){
+  .flexslider {
+    font-size: 2em;
+  }
+  .main-title {
+    font-size: 1.3em;
+  }
+  .header-logo {
+    width: 90px;
+    float: left;
+    height: auto;
+  }
+  a.buttonlink {
+    font-size: 1em;
+    width: 200px;
+  }
+  .sitcky-cta-container .buttonlink {
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    top: auto;
+    bottom: 5px;
+  }
+  .counter-container {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  .sitcky-cta-container {
+    height: 120px;
+    padding-top: 10px;
+  }
+  .social {
+    top: -10px;
+  }
+
+
+}
+@media only screen and (min-width: 769px){
+  .flexslider {
+    font-size: 5em;
+  }
+  .main-title {
+    font-size: 2em;
+  }
+  .header-logo {
+    width: 175px;
+    height: auto;
+  }
+  .social {
+    top: 10px;
+  }
 }
 /* end rest of styles */

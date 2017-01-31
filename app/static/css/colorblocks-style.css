@@ -2,7 +2,7 @@
 Simple Responsive Template v 1.2
 
 
-primary styles 
+primary styles
    Author: www.prowebdesign.ro
    Add your own styles to customize the project.
 
@@ -17,18 +17,18 @@ BASE (MOBILE) SIZE
 body{
 	background:#fff;
 	color:#666;
-	font-family:'Droid Serif', Arial, Helvetica, sans-serif; 
+	font-family:'Droid Serif', Arial, Helvetica, sans-serif;
 	font-size:1em;
-	line-height:1.4em; 
+	line-height:1.4em;
 	font-weight:normal;
 }
 h1, h2, h3, h4, h5, h6{
 	font-weight:500;
-	font-family:'Oswald', Arial, Helvetica, sans-serif; 
+	font-family:'Oswald', Arial, Helvetica, sans-serif;
 	line-height:1.5em;
 	margin:.45em 0;
 	padding:0;
-} 
+}
 
 /* links */
 a,
@@ -41,18 +41,18 @@ a:hover{ text-decoration:none;}
 /* Box sizing. Awesome thing. Read about it here: http://www.w3schools.com/cssref/css3_pr_box-sizing.asp */
 *{	box-sizing:border-box;
 	-moz-box-sizing:border-box;}
-  
-/* structure */   
+
+/* structure */
 .wrapper{
-	width: 92%; 
+	width: 92%;
 	margin: 0 auto;
 }
-header{ 
+header{
 	padding:15px 0;
 }
-#banner{ 
+#banner{
 	text-align:center;
-}	
+}
 #hero,
 #page-header{
 	background:#f3f3f3;
@@ -65,11 +65,10 @@ header{
 	margin:0;
 }
 .flexslider{
-	display:none;
 }
 #content,
 aside,
-.vertical-padding{  
+.vertical-padding{
 	padding:40px 0;
 }
 p{ margin:0 0 1.5em;}
@@ -95,7 +94,7 @@ img{ max-width:100%; height:auto;}
 }
 .srt-menu{
 	display:none;
-}	
+}
 .srt-menu.toggled-on{
 	display:block;
 	position:relative;
@@ -105,13 +104,13 @@ img{ max-width:100%; height:auto;}
 .srt-menu{
 	clear:both;
 	margin-bottom:60px;
-	
+
 }
 .srt-menu li a {
 	color:#666;
 	background:#dadada;
 	display:block;
-	margin:1px 0; 
+	margin:1px 0;
 	padding:10px;
 	text-decoration:none;
 	font-size:.9em;
@@ -137,11 +136,11 @@ img{ max-width:100%; height:auto;}
 	margin:0;
 	padding:0;
 }
-#secondary-navigation ul li a{ 
+#secondary-navigation ul li a{
 	background:#E6E6E6;
 	color:#666;
 	display:block;
-	margin:5px 0; 
+	margin:5px 0;
 	padding:10px;
 	text-decoration:none;
 }
@@ -173,7 +172,7 @@ img{ max-width:100%; height:auto;}
 }
 
 /*FOOTER*/
-footer{  
+footer{
 	background:#333;
 	color:#ccc;
 	font-size:80%;
@@ -186,13 +185,13 @@ footer ul{
 
 
 /*Some more colored elements*/
-a.buttonlink{ 
-	background:#5ec79e; 
-	border-radius:7px; 
+a.buttonlink{
+	background:#5ec79e;
+	border-radius:7px;
 	color:#fff;
 	display:block;
-	float:left; 
-	margin:10px 15px 10px 0; 
+	float:left;
+	margin:10px 15px 10px 0;
 	padding:10px;
 	text-decoration:none;
 }
@@ -209,7 +208,7 @@ a.buttonlink:hover{
 }
 
 
-/* Contain floats*/ 
+/* Contain floats*/
 .clearfix:before,
 .clearfix:after,
 .row:before,
@@ -248,7 +247,7 @@ This is for mobile devices with a bit larger screens.
 	float:right;
 }
 
-} 
+}
 
 /*
 TABLET & SMALLER LAPTOPS
@@ -258,14 +257,14 @@ But I think that some more breathing space is good:)
 @media only screen and (min-width: 920px) {
 
 .wrapper{
-	max-width: 1200px; 
+	max-width: 1200px;
 	margin: .75em auto;
 }
 header{
 	padding:0;
 }
-#banner{ 
-	float:left; 
+#banner{
+	float:left;
 	text-align:left;
 	margin-bottom:0px;
 	margin-top:5px;
@@ -274,7 +273,7 @@ header{
 	padding:0;
 }
 
-#content {  
+#content {
 	float:left;
 	width:65%;
 }
@@ -285,13 +284,13 @@ header{
 
 .flexslider{
 	display:block;
-/*demo 1 slider theme*/	
-margin: 0; 
+/*demo 1 slider theme*/
+margin: 0;
 }
 .flex-control-nav {bottom: 5px;}
 
 
-aside { 
+aside {
 	float:right;
 	width:30%;
 }
@@ -368,11 +367,11 @@ ul.srt-menu li li li.sfHover ul {
 }
 .srt-menu li a{
 	background:#fff;
-	margin:0; 
+	margin:0;
 	padding:10px 20px;
 }
 .srt-menu a, .srt-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
-	color:			#666;	
+	color:			#666;
 }
 .srt-menu li li a {
 		border-top:		1px solid rgba(255,255,255,.2);
@@ -389,7 +388,7 @@ ul.srt-menu li li li.sfHover ul {
 }
 
 .srt-menu li:hover > a,
-.srt-menu li.current a{ 
+.srt-menu li.current a{
 	color:#fff;
 	background:#5ec79e;
 }
@@ -402,14 +401,14 @@ ul.srt-menu li li li.sfHover ul {
 
 /*GRID*/
 /*
- & Columns : 12 
+ & Columns : 12
 
  */
  .row{
 	 margin-left: -15px;
      margin-right: -15px;
 }
- 
+
 .grid_1 { width: 8.33333333%; }
 .grid_2 { width: 16.66666667%; }
 .grid_3 { width: 25%; }
@@ -442,8 +441,8 @@ ul.srt-menu li li li.sfHover ul {
 .rightfloat{float:right;}
 /* @notation inspired by tinyGrid, .row and percentage by Twitter Bootstrap
  */
- 
-#hero .grid_8 { 
+
+#hero .grid_8 {
 	margin:40px 0 -13px;
 }
 
@@ -457,7 +456,7 @@ you can add resource intensive styles.
 */
 @media only screen and (min-width: 1024px) {
 #hero h1{ font-size:2em;}
-} 
+}
 
 /*
 LARGE VIEWING SIZE
@@ -465,7 +464,7 @@ This is for the larger monitors and possibly full screen viewers.
 */
 @media only screen and (min-width: 1240px) {
 #hero h1{ font-size:2em;}
-} 
+}
 
 /*
 RETINA (2x RESOLUTION DEVICES)
@@ -477,15 +476,15 @@ other displays with a 2x resolution.
        only screen and (min-device-pixel-ratio: 1.5) {
 
 
-} 
+}
 
 /*
 iPHONE 5 MEDIA QUERY
 iPhone 5 or iPod Touch 5th generation styles (you can include your own file if you want)
 */
-@media (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) { 
+@media (device-height: 568px) and (-webkit-min-device-pixel-ratio: 2) {
 
-  
+
 }
 
 /*
