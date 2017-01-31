@@ -19,5 +19,5 @@ class MainPage(webapp2.RequestHandler):
 
 
 app =  webapp2.WSGIApplication([
-    ('/', MainPage),
+    ('/secretsecret', MainPage),
 ], debug=False)
