@@ -12,7 +12,7 @@ JINJA_ENVIRONMENT = jinja2.Environment(
 TEMPLATE = JINJA_ENVIRONMENT.get_template(os.path.join('templates', 'index.html'))
 SIGNATURES_FILE = os.path.join(os.path.dirname(__file__), 'signatures.csv')
 
-Signature = collections.namedtuple('Signature', ['name', 'title', 'company'])
+Signature = collections.namedtuple('Signature', ['name', 'company', 'title'])
 SIGNATURES_PER_ROW = 3
 
 
@@ -27,7 +27,7 @@ class MainPage(webapp2.RequestHandler):
           if i != 0 and i % SIGNATURES_PER_ROW == 0:
             signatures.append(curr)
             curr = []
-          curr.append(Signature(name=row[0], title=row[1], company=row[2]))
+          curr.append(Signature(name=row[0], company=row[1], title=row[2]))
 
       if not curr:
         signatures.append(curr)
