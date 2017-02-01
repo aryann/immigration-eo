@@ -150,6 +150,13 @@ a.buttonlink:active {
 .header-logo a:focus {
   color: #000;
 }
+.about {
+  font-size: 1.3em;
+}
+.about:hover,
+.about:focus {
+  color: rgb(251, 55, 49);
+}
 .signatures-wrapper {
   padding-bottom: 60px;
 }
@@ -185,7 +192,10 @@ a.buttonlink:active {
     padding-top: 10px;
   }
   .social {
-    top: -10px;
+    top: 0px;
+  }
+  #banner {
+    text-align: left;
   }
 
 
@@ -208,7 +218,7 @@ a.buttonlink:active {
     margin:0;
   }
   .social {
-    top: 10px;
+    top: 0px;
   }
   .counter-container {
     text-align: right;
