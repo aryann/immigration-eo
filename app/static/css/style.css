@@ -130,6 +130,12 @@ a.buttonlink:active {
   font-weight: 800;
   font-family: 'Roboto', sans-serif;
 }
+.temp-text {
+  font-size: 2em;
+  padding: 1em;
+  text-align: center;
+  line-height: 1.4;
+}
 .sitcky-cta-container .buttonlink {
   top: 0;
   bottom: 0;
@@ -258,6 +264,9 @@ a.buttonlink:active {
   }
   #banner {
     text-align: left;
+  }
+  .temp-text {
+    font-size: 1.8em;
   }
 
 }
