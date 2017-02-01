@@ -16,43 +16,18 @@ Our commonality is that we stand united to defend the founding principles and va
   </p>
 
   <p class="quote">
-  “(Freedom) is never more than one generation away from extinction. It is not ours by inheritance; it must be fought for and defended constantly by each generation.”
-  <span>- Ronald Reagan</span>
+    “(Freedom) is never more than one generation away from extinction. It is not ours by inheritance; it must be fought for and defended constantly by each generation.”
+    <span class="person">- Ronald Reagan</span>
   </p>
 
-“(Freedom) is never more than one generation away from extinction. It is not ours by inheritance; it must be fought for and defended constantly by each generation.”
-Ronald Reagan
+  <p class="quote">
+    “We may have all come on different ships, but we're in the same boat now."
+    <span class="person">- Martin Luther King, Jr.</span>
+  </p>
 
-“We may have all come on different ships, but we're in the same boat now."
-Martin Luther King, Jr.
-
-  <p>
-    About content goes here.
-    </p
 
 </section><!-- #end content area -->
 </div><!-- #end div #main .wrapper -->
 
-<!-- colored section -->
-<section id="features"  class="greenelement signatures-wrapper vertical-padding">
-	<div class="wrapper clearfix">
-
-    <h1>Signed,</h1>
-
-    <div class="signatures-group row vertical-padding">
-    {% for row in signatures %}
-      {% for signature in row %}
-        <div class="grid_4">
-       	  <h3>{{ signature.name }}</h3>
-       	  <p>
-            {{ signature.title }}
-	    <br />{{ signature.company }}
-          </p>
-        </div>
-      {% endfor %}
-    {% endfor %}
-    </div><!-- #end div .wrapper -->
-
-</section><!-- #end colored section -->
 
 {% endblock %}

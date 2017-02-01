@@ -40,6 +40,7 @@ class MainPage(webapp2.RequestHandler):
       template_values = {
           'signatures': signatures,
           'num_signatories': '{:,}'.format(num_signatories),
+          'name': 'home-page'
       }
       self.response.write(HOME_TEMPLATE.render(template_values))
 
@@ -47,7 +48,10 @@ class MainPage(webapp2.RequestHandler):
 class AboutPage(webapp2.RequestHandler):
 
   def get(self):
-    self.response.write(ABOUT_TEMPLATE.render())
+    template_values = {
+      'name': 'about-page'
+    }
+    self.response.write(ABOUT_TEMPLATE.render(template_values))
 
 
 app =  webapp2.WSGIApplication([
