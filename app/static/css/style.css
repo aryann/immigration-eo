@@ -36,7 +36,11 @@ em {
 /* end flexslider styles */
 
 /* begin rest of styles */
-
+.timestamp {
+  font-weight: 300;
+  color: #999;
+  font-size: 0.85em;
+}
 #banner {
   margin: 15px 0;
   width: 100%;
@@ -147,7 +151,6 @@ a.buttonlink:active {
   padding-bottom: 80px;
 }
 .counter-container {
-  margin-top: 10px;
   font-size: 1.2em;
 }
 .counter {
@@ -254,7 +257,6 @@ a.buttonlink:active {
     bottom: 5px;
   }
   .counter-container {
-    margin-top: 10px;
     text-align: center;
     font-size: 1.2em;
   }
