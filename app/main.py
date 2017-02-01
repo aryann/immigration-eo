@@ -10,6 +10,7 @@ JINJA_ENVIRONMENT = jinja2.Environment(
     extensions=['jinja2.ext.autoescape'],
     autoescape=True)
 TEMPLATE = JINJA_ENVIRONMENT.get_template(os.path.join('templates', 'index.html'))
+ABOUT_TEMPLATE = JINJA_ENVIRONMENT.get_template(os.path.join('templates', 'about.html'))
 SIGNATURES_FILE = os.path.join(os.path.dirname(__file__), 'signatures.csv')
 
 Signature = collections.namedtuple('Signature', ['name', 'company', 'title'])
@@ -41,7 +42,11 @@ class MainPage(webapp2.RequestHandler):
       }
       self.response.write(TEMPLATE.render(template_values))
 
+class AboutPage(webapp2.RequestHandler):
+  def get(self):
+    self.response.write(ABOUT_TEMPLATE.render())
 
 app =  webapp2.WSGIApplication([
     ('/secretsecret', MainPage),
+    ('/about', AboutPage),
 ], debug=False)
