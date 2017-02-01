@@ -40,27 +40,28 @@ html, body {
   position: relative;
 }
 a.buttonlink {
-  background-color: #333;
+  background-color: rgb(251, 55, 49);
   font-size: 1.4em;
   padding: .7em 1em;
   text-align: center;
   float: none;
   position: absolute;
-  bottom: -50px;
   left: 50%;
   border-radius: 0px;
   -moz-border-radius: 0px;
   -webkit-border-radius: 0px;
+  /*
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
+  */
   -moz-transition: .3s ease all;
   -webkit-transition: .3s ease all;
   transition: .3s ease all;
 }
 a.buttonlink:hover,
 a.buttonlink:active {
-  background-color: rgb(251, 55, 49);
+  background-color: #000;
 }
 .title-button-wrapper {
   position: relative;
@@ -130,8 +131,8 @@ a.buttonlink:active {
   font-family: 'Roboto', sans-serif;
 }
 .sitcky-cta-container .buttonlink {
-  top: 5px;
-  bottom: auto;
+  top: 0;
+  bottom: 0;
 }
 .counter-container {
   margin-top: 10px;
@@ -199,8 +200,22 @@ a.buttonlink:active {
   .header-logo {
     font-size: 1.4em;
   }
+  .sitcky-cta-container .buttonlink {
+    bottom: 0;
+    line-height: 2.3;
+    top: 0;
+    height: 100%;
+    margin:0;
+  }
   .social {
     top: 10px;
+  }
+  .counter-container {
+    text-align: right;
+    background-color: yellow;
+    position: absolute;
+    float: none;
+    left: calc(50% - 200px);
   }
 }
 /* end rest of styles */
