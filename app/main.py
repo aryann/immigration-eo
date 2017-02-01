@@ -55,6 +55,6 @@ class AboutPage(webapp2.RequestHandler):
 
 
 app =  webapp2.WSGIApplication([
-    ('/secretsecret', MainPage),
-    ('/secretsecretabout', AboutPage),
+    ('/', MainPage),
+    ('/about', AboutPage),
 ], debug=False)
