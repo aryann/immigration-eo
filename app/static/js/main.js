@@ -45,6 +45,18 @@ $(document).ready(function(){
     $("html, body").animate({ scrollTop: "0px" });
   });
 
+  // share code
+  var shareUrl = 'http://siliconvalleystands.org/';
+  var shareOptions = {
+    twitter: {
+      text: 'We stand together for diversity, for inclusion, for immigrants #SVStands',
+      via: 'SVStands'
+    },
+    facebook : true
+  };
+
+  $('.socialShare').shareButtons(shareUrl, shareOptions);
+
 
 });
 

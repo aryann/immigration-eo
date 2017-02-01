@@ -156,6 +156,30 @@ a.buttonlink:active {
 .counter {
   color: rgb(251, 55, 49);
 }
+.socialPlugin.socialShare {
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  left: calc(50% + 191px);
+  background-color: #000;
+  color: white;
+  margin: 0;
+  width: 50px;
+}
+.socialPlugin .showSocialButtons {
+  color: white;
+  border: none;
+  width: 100%;
+  margin-top: 28px;
+}
+.socialPlugin .socials .fa-twitter:after,
+.socialPlugin .socials .fa-facebook:after {
+  background: black!important;
+}
+.socialPlugin .socials:after {
+  border-top: 15px solid #000;
+  margin: 0 auto!important;
+}
 .header-logo a {
   font-weight: 700;
   text-decoration: none;
@@ -183,9 +207,8 @@ a.buttonlink:active {
   width: 50px;
   height: auto;
   right: 30px;
-  bottom: 100px;
+  bottom: 140px;
   z-index: 1000;
-
 }
 
 .up-arrow-scroll img {
@@ -272,6 +295,22 @@ a.buttonlink:active {
   }
   .temp-text {
     font-size: 1.8em;
+  }
+  .socialPlugin.socialShare {
+    position: absolute;
+    top: -41px;
+    height: 40px;
+    width: 100%;
+    left: 0;
+    background-color: #000;
+    color: white;
+    margin: 0;
+  }
+  .socialPlugin.socialShare .socials {
+    margin-left: calc(50% - 100px)!important;
+  }
+  .socialPlugin .showSocialButtons {
+    margin-top: 10px;
   }
 
 }
