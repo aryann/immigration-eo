@@ -6,14 +6,17 @@ html, body {
 
 /* begin flexslider styles */
 .flexslider {
-  font-size: 5.2em;
-  font-family: 'Stardos Stencil', cursive;
-  background-color: rgb(251, 55, 49);
+  font-family: 'Lato', sans-serif;
+  background-color: #000;
+  font-weight: 300;
   color: #fff;
-  line-height: 1;
+  line-height: 1.2;
+}
+.flex-control-nav {
+  bottom: 0;
 }
 .flexslider .slides {
-  padding: 2.5em 0;
+  padding: 0.8em 0;
 }
 .flex-control-paging {
   line-height: 0.5;
@@ -30,41 +33,40 @@ html, body {
 /* end flexslider styles */
 
 /* begin rest of styles */
-.header-logo {
-  width: 175px;
-  height: auto;
-}
+
 #banner {
   margin: 15px 0;
   width: 100%;
   position: relative;
 }
 a.buttonlink {
-  background-color: #ccc;
+  background-color: rgb(251, 55, 49);
   font-size: 1.4em;
-  padding: .7em;
+  padding: .7em 1em;
   text-align: center;
   float: none;
   position: absolute;
-  bottom: -50px;
   left: 50%;
-  border-radius: 0;
-  -moz-border-radius: 0;
-  -webkit-border-radius: 0;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  /*
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
+  */
   -moz-transition: .3s ease all;
   -webkit-transition: .3s ease all;
   transition: .3s ease all;
 }
 a.buttonlink:hover,
 a.buttonlink:active {
-  background-color: rgb(251, 55, 49);
+  background-color: #000;
 }
 .title-button-wrapper {
   position: relative;
-  padding: 30px 50px;
+  padding: 00px 30px;
+  margin-bottom: 0;
 }
 #content {
   font-size: 1.2em;
@@ -74,23 +76,156 @@ a.buttonlink:active {
   line-height: 1.2;
   text-align: center;
   margin: 2em 0;
-  font-weight: 800;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 .social {
   list-style-type: none;
   position: absolute;
   right: 30px;
   top: 00px;
+  margin: 0;
+  padding-left: 0;
+  top: -10px;
 
 }
 .social li {
   float: left;
-  margin-left: 10px;
+  margin-left: 15px;
 }
-.social a {
+.social a, .social a, .social a {
   color: #333;
+  text-decoration: none;
+}
+.social li a.facebook img {
+  width: 25px;
+  margin-top: -3px;
+}
+.social img {
+  width: 30px;
+  height: auto;
 }
 #features {
   background-color: #333;
+}
+#hero {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.main-title {
+  line-height: 1.2;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #000;
+}
+.sitcky-cta-container {
+  background: white;
+  position: fixed;
+  bottom: 0;
+  z-index: 10;
+  height: 80px;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  padding: 20px 50px;
+  font-weight: 800;
+  font-family: 'Roboto', sans-serif;
+}
+.sitcky-cta-container .buttonlink {
+  top: 0;
+  bottom: 0;
+}
+.counter-container {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+.counter {
+  color: rgb(251, 55, 49);
+}
+.header-logo a {
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+}
+.header-logo a:hover,
+.header-logo a:focus {
+  color: #000;
+}
+.about {
+  font-size: 1.3em;
+}
+.about:hover,
+.about:focus {
+  color: rgb(251, 55, 49);
+}
+.signatures-wrapper {
+  padding-bottom: 60px;
+}
+@media only screen and (max-width: 768px){
+  .flexslider {
+    font-size: 2em;
+  }
+  .main-title {
+    font-size: 1.3em;
+  }
+  .header-logo {
+    font-size: 1.8em;
+  }
+  a.buttonlink {
+    font-size: 1em;
+    width: 200px;
+  }
+  .sitcky-cta-container .buttonlink {
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    top: auto;
+    bottom: 5px;
+  }
+  .counter-container {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  .sitcky-cta-container {
+    height: 120px;
+    padding-top: 10px;
+  }
+  .social {
+    top: 0px;
+  }
+  #banner {
+    text-align: left;
+  }
+
+
+}
+@media only screen and (min-width: 769px){
+  .flexslider {
+    font-size: 4em;
+  }
+  .main-title {
+    font-size: 2em;
+  }
+  .header-logo {
+    font-size: 1.4em;
+  }
+  .sitcky-cta-container .buttonlink {
+    bottom: 0;
+    line-height: 2.3;
+    top: 0;
+    height: 100%;
+    margin:0;
+  }
+  .social {
+    top: 0px;
+  }
+  .counter-container {
+    text-align: right;
+    background-color: yellow;
+    position: absolute;
+    float: none;
+    left: calc(50% - 200px);
+  }
 }
 /* end rest of styles */

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <title>Silicon Valley Stands</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Silicon Valley Stands for Diversity" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
+    <link rel="shortcut icon" href="images/favicon.ico"  type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,700|Roboto:300,400,500,700" rel="stylesheet" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="js/flexslider/flexslider.css" />
+    <link rel="stylesheet" href="css/colorblocks-style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="js/libs/modernizr-2.6.2.min.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-36868551-3', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+
+  <body id="home">
+
+    <div class="sitcky-cta-container">
+      <a href="#" class="buttonlink" align="center">Sign the Letter</a>
+      <div class="counter-container">
+        <span class="counter">
+          {{ num_signatories }}
+        </span>
+        Have signed
+      </div>
+    </div>
+
+    <header class="wrapper clearfix">
+      <div id="banner">
+        <div id="logo" class="header-logo">
+          <a href="https://twitter.com/SVStands">
+            #SVStands
+          </a>
+        </div>
+
+        <ul class="social">
+          <li>
+            <a class="about" href="./about">
+              About
+            </a>
+          </li>
+          <li>
+            <a class="facebook" href="https://www.facebook.com/SiliconValleyStands/" target="_blank">
+              <img src="images/facebook.png" alt="facebook">
+            </a>
+          </li>
+          <li>
+            <a class="twitter" href="https://twitter.com/SVStands" target="_blank">
+              <img src="images/twitter.png" alt="twitter">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="flexslider">
+      <ul class="slides">
+        <li>
+          Silicon Valley Stands<br />for Diversity
+        </li>
+        <li>
+          Silicon Valley Stands<br />for Inclusion
+        </li>
+        <li>
+          Silicon Valley Stands<br />for Immigrants
+        </li>
+        <li>
+          Silicon Valley Stands<br />Together
+        </li>
+      </ul>
+    </div>
+
+    {% block content %}{% endblock %}
+
+    <footer>
+      <div id="colophon" class="wrapper clearfix">
+
+      </div>
+    </footer>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/libs/jquery-1.9.0.min.js">\x3C/script>')</script>
+    <script defer src="js/flexslider/jquery.flexslider-min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
