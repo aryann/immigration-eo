@@ -37,6 +37,7 @@ $(document).ready(function(){
     slideshow: true,
     slideshowSpeed: 3000,
   	directionNav: false,
+    controlNav: false,
     start: function(slider){
       // alert()
       // $('body').removeClass('loading');
