@@ -45,6 +45,7 @@ $(document).ready(function(){
     controlNav: false
   });
 
+
   function initForm() {
     var windowHeight = $window.height();
     var windowWidth = $window.width();
@@ -53,7 +54,12 @@ $(document).ready(function(){
     $signBtn.on('click', function(e) {
       e.preventDefault();
       // $backBtn.addClass('visible');
-      $form.addClass('visible');
+      if(windowWidth < 768) {
+        window.open('https://docs.google.com/forms/d/e/1FAIpQLScOH4yMtuYrYIC-AUf1JTHc7bMZgqHRJ6rQ-_HShQGKIi31BQ/viewform');
+      } else {
+        $form.addClass('visible');
+      }
+
     });
     $backBtn.on('click', function(e) {
       // $backBtn.removeClass('visible');
