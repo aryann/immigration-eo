@@ -153,6 +153,19 @@ a.buttonlink:active {
 .header-logo a:focus {
   color: #000;
 }
+.form-iframe{
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+
+  display: none;
+  overflow-y: scroll;
+}
+.form-iframe.visible {
+  display: block;
+}
+
 .quote {
   font-style: italic;
   color: #666;
@@ -170,6 +183,19 @@ a.buttonlink:active {
 }
 .about {
   font-size: 1.3em;
+  font-weight: bold;
+}
+.back {
+  position: fixed;
+  z-index: 20;
+  top: 15px;
+  left: 15px;
+  width: 50px;
+  height: 50px;
+  display: none;
+}
+.back.visible {
+  display: block;
 }
 .about:hover,
 .about:focus {

@@ -31,12 +31,11 @@ function initialize() {
 // Fireup the plugins
 $(document).ready(function(){
 
-  var state = {
-    isFormVisible: false
-
-  };
   var $window = $(window);
   var $flexSlider = $('.flexslider');
+  var $form = $('.form-iframe');
+  var $signBtn = $('.buttonlink')
+  var $backBtn = $('.back')
 	// initialise  slideshow
 	$('.flexslider').flexslider({
   	animation: "fade",
@@ -47,14 +46,26 @@ $(document).ready(function(){
   });
 
   function initForm() {
-    var windowHight = $window
+    var windowHeight = $window.height();
+    var windowWidth = $window.width();
+    $form.attr('width', windowWidth);
+    $form.attr('height', windowHeight);
+    $signBtn.on('click', function(e) {
+      e.preventDefault();
+      // $backBtn.addClass('visible');
+      $form.addClass('visible');
+    });
+    $backBtn.on('click', function(e) {
+      // $backBtn.removeClass('visible');
+      $form.removeClass('visible');
+    });
   }
 	// call initialize when dom is loaded
 
 	// commenting this out for now - `#topnav` does not exits
 	// TODO fix this
 	// initialize();
-
+  initForm();
 
 });
 
