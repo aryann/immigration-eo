@@ -165,7 +165,21 @@ a.buttonlink:active {
 .form-iframe.visible {
   display: block;
 }
+.up-arrow-scroll {
+  position: fixed;
+  display: none;
+  width: 50px;
+  height: auto;
+  right: 30px;
+  bottom: 100px;
+  z-index: 1000;
 
+}
+.up-arrow-scroll img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 .quote {
   font-style: italic;
   color: #666;
@@ -214,6 +228,9 @@ a.buttonlink:active {
   .header-logo {
     font-size: 1.8em;
   }
+  .up-arrow-scroll, .up-arrow-scroll img {
+    display: none;
+  }
   a.buttonlink {
     font-size: 1em;
     width: 200px;
@@ -244,6 +261,9 @@ a.buttonlink:active {
 
 }
 @media only screen and (min-width: 769px){
+  .up-arrow-scroll {
+    display: block;
+  }
   .flexslider {
     font-size: 4em;
   }
