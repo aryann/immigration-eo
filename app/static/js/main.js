@@ -31,19 +31,24 @@ function initialize() {
 // Fireup the plugins
 $(document).ready(function(){
 
+  var state = {
+    isFormVisible: false
+
+  };
+  var $window = $(window);
+  var $flexSlider = $('.flexslider');
 	// initialise  slideshow
 	$('.flexslider').flexslider({
   	animation: "fade",
     slideshow: true,
     slideshowSpeed: 3000,
   	directionNav: false,
-    controlNav: false,
-    start: function(slider){
-      // alert()
-      // $('body').removeClass('loading');
-    }
+    controlNav: false
   });
 
+  function initForm() {
+    var windowHight = $window
+  }
 	// call initialize when dom is loaded
 
 	// commenting this out for now - `#topnav` does not exits
