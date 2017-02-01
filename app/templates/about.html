@@ -1,154 +1,21 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+{% extends "base.html" %}
 
-<title>Silicon Valley Stands</title>
-<meta name="description" content="Silicon Valley Stands for Diversity">
-<meta name="keywords" content="">
-
-<!-- Mobile viewport -->
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-<link rel="shortcut icon" href="images/favicon.ico"  type="image/x-icon">
-
-<!-- CSS-->
-<!-- Google web fonts. You can get your own bundle at http://www.google.com/fonts. Don't forget to update the CSS accordingly!-->
-<link href="https://fonts.googleapis.com/css?family=Lato:300,700|Roboto:300,400,500,700" rel="stylesheet">
-
-
-<link rel="stylesheet" href="css/normalize.css">
-<link rel="stylesheet" href="js/flexslider/flexslider.css">
-<link rel="stylesheet" href="css/colorblocks-style.css">
-<link rel="stylesheet" href="css/style.css">
-
-<!-- end CSS-->
-
-<!-- JS-->
-<script src="js/libs/modernizr-2.6.2.min.js"></script>
-<!-- end JS-->
-
-
-</head>
-
-<body id="home">
-
-<!-- Begin Sticky CTA area -->
-<div class="sitcky-cta-container">
-  <a href="#" class="buttonlink" align="center">Sign the Letter</a>
-  <div class="counter-container">
-    <span class="counter">
-      {{ num_signatories }}
-    </span>
-    Have signed
-  </div>
-</div>
-<!-- End Sticky CTA area -->
-
-
-<!-- header area -->
-    <header class="wrapper clearfix">
-
-        <div id="banner">
-        	<div id="logo" class="header-logo">
-            <a href="https://twitter.com/SVStands">
-              #SVStands
-            </a>
-          </div>
-
-          <ul class="social">
-            <li>
-              <a class="about" href="./about">
-                About
-              </a>
-            </li>
-            <li>
-              <a class="facebook" href="https://www.facebook.com/SiliconValleyStands/" target="_blank">
-                <img src="images/facebook.png" alt="facebook">
-              </a>
-            </li>
-            <li>
-              <a class="twitter" href="https://twitter.com/SVStands" target="_blank">
-                <img src="images/twitter.png" alt="twitter">
-              </a>
-            </li>
-          </ul>
-        </div>
-
-
-    </header><!-- end header -->
-
-    <!-- begin flexslider -->
-    <div class="flexslider">
-      <ul class="slides">
-        <li>
-          Silicon Valley Stands <br /> for Diversity
-        </li>
-        <li>
-          Silicon Valley Stands <br /> for Inclusion
-        </li>
-        <li>
-          Silicon Valley Stands <br /> for Immigrants
-        </li>
-        <li>
-          Silicon Valley Stands <br /> Together
-        </li>
-      </ul>
-    </div>
-    <!-- end flexslider -->
-
-<!-- hero area (the grey one with a slider) -->
-    <section id="hero" class="clearfix">
-
-
-
-    <div class="wrapper">
-      <div class="row">
-        <div class="grid_12 title-button-wrapper" text-align="center">
-
-          <h1 class="main-title" align="center">An Open Letter from the American Tech &amp; Business Community <br>Regarding Travel Ban Executive Order</h1>
-        </div>
-
-           </div><!-- end .row div -->
-        </div><!-- end .wrapper div -->
-    </section><!-- end hero area -->
-
+{% block content %}
 
 <!-- main content area -->
 <div id="main" class="wrapper clearfix">
 
 <!-- content area -->
-	<section id="content" class="wide-content">
+<section id="content" class="wide-content">
 
-        	<p>We, the undersigned members of the US technology and business community support measures that effectively enhance the national security and safety of the United States. While we are sympathetic to such efforts, we are deeply concerned about the adverse effects of the recent Executive Order (EO) which blocks members of our community of Iranian, Iraqi, Syrian, Sudanese, Yemeni, Libyan and Somali origin from entering the US. This blanket ban, even a short suspension of entry, has adverse effects on the US economy to which our businesses have contributed significantly. In addition, it causes unnecessary harm and disruption in the daily lives of members of American society, and does not serve to advance the national interests of the US.</p>
+  <h1>About</h1>
 
-		<h2>The US economy depends on the contributions <br> of lawful immigrants from the designated countries. </h2>
-			<p>They play key roles in major American corporations as entrepreneurs, board members, executives, managers, researchers, engineers, designers, lawyers, marketers, and more.  Their jobs require them to travel outside the US, and the ban not only prevents them from carrying out their duties effectively but also severely damages the business flow and economic value that they bring to the US. </p>
+  <p>
+    About content goes here.
+    </p
 
-		<h2>Legal immigrants from the designated countries <br> have been job creators.</h2>
-			<p>Many well-known, successful American corporations employing tens of thousands of Americans are founded by and/or have received key contributions from legal immigrants from these countries. Their positive impact on the American economy is undeniable and would have been lost if they or their families had been prevented from entering the US. There are many prominent examples to attest this:
-			<ul>
-   <li> Steve Jobs, Founder and former CEO of Apple Inc., son of an immigrant from Syria.</li>
-   <li> Omid Kordestani, Executive Chairman of Twitter, former SVP at Google Inc., immigrant from Iran.</li>
-   <li> Salar Kamangar, SVP at Google Inc., former CEO of YouTube, immigrant from Iran.</li>
-   <li> Bob Miner, Co-founder of Oracle Corporation, son of immigrants from Iran.</li>
-   <li> Pierre Omidyar, Founder and CEO of eBay Inc., son of an immigrant from Iran.</li></ul></p>
-
-		<h2>This Executive Order imposes an undue burden <br> on law-abiding individuals of our community.</h2>
-			<p>They have worked hard to join our society in pursuit of a better life for themselves and their families and have become an integral part of our society. This ban separates US Citizens and legal residents from their family members internationally, preventing family members to see one another. This infringement is detrimental to the family structure of these valuable legal immigrants and our society as a whole, and contradicts some of our most cherished American values.</p>
-
-			<p>We believe the ban has negative consequences that reach beyond the scope of national security, and punishes law-abiding, hard-working, and well-integrated immigrants who are contributing immensely to the US economy.</p>
-
-			<p>We disagree with this Executive Order and ask for its withdrawal in the name of American values and our national interests.</p>
-
-
-	</section><!-- #end content area -->
+</section><!-- #end content area -->
 </div><!-- #end div #main .wrapper -->
-
 
 <!-- colored section -->
 <section id="features"  class="greenelement signatures-wrapper vertical-padding">
@@ -172,24 +39,4 @@
 
 </section><!-- #end colored section -->
 
-<!-- footer area -->
-<footer>
-	<div id="colophon" class="wrapper clearfix">
-
-    </div>
-
-</footer><!-- #end footer area -->
-
-
-<!-- jQuery -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/libs/jquery-1.9.0.min.js">\x3C/script>')</script>
-
-<script defer src="js/flexslider/jquery.flexslider-min.js"></script>
-
-<!-- fire ups - read this file!  -->
-<script src="js/main.js"></script>
-
-
-</body>
-</html>
+{% endblock %}
