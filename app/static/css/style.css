@@ -180,6 +180,11 @@ a.buttonlink:active {
   border-top: 15px solid #000;
   margin: 0 auto!important;
 }
+.socialPlugin .socials .fa:hover:after {
+  transform: translate3D(0, -72%, 0);
+  -webkit-transform: translate3D(0, -72%, 0);
+  -moz-transform: translate3D(0, -72%, 0);
+}
 .header-logo a {
   font-weight: 700;
   text-decoration: none;
@@ -343,15 +348,7 @@ a.buttonlink:active {
     float: none;
     left: calc(50% - 200px);
   }
-  #about-page .sitcky-cta-container .buttonlink {
-    transform: translate(-50%);
-    -moz-transform: translate(-50%);
-    -webkit-transform: translateX(-50%);
-    left: 50%;
-  }
-  #about-page .counter-container {
-    display: none;
-  }
+
 
 }
 /* end rest of styles */

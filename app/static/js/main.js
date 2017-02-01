@@ -28,16 +28,19 @@ $(document).ready(function(){
     $venobox.attr('target', '_blank');
   } else {
     $venobox.venobox();
-    var waypoint = new Waypoint({
-      element: document.querySelector('.signatures-wrapper'),
-      handler: function(direction) {
-        if(direction === 'down') {
-          $up.fadeIn();
-        } else {
-          $up.fadeOut();
+    if($('body').attr('id') === 'home-page') {
+      var waypoint = new Waypoint({
+        element: document.querySelector('.signatures-wrapper'),
+        handler: function(direction) {
+          if(direction === 'down') {
+            $up.fadeIn();
+          } else {
+            $up.fadeOut();
+          }
         }
-      }
-    });
+      });
+    }
+
   }
 
   $up.on('click', function(e) {
