@@ -2,6 +2,9 @@
 html, body {
   font-size: 16px;
 }
+em {
+  font-style: italic;
+}
 /* end global styles */
 
 /* begin flexslider styles */
