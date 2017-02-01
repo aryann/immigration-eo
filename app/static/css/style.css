@@ -134,6 +134,9 @@ a.buttonlink:active {
   top: 0;
   bottom: 0;
 }
+#about-page #content {
+  padding-bottom: 80px;
+}
 .counter-container {
   margin-top: 10px;
   font-size: 1.2em;
@@ -149,6 +152,21 @@ a.buttonlink:active {
 .header-logo a:hover,
 .header-logo a:focus {
   color: #000;
+}
+.quote {
+  font-style: italic;
+  color: #666;
+}
+.quote {
+  padding-left: 30px;
+  border-left: 4px solid #eee;
+}
+.quote .person {
+  font-weight: bolc;
+  color: #999;
+  display: block;
+  clear: both;
+  margin-top: 10px;
 }
 .about {
   font-size: 1.3em;
@@ -222,10 +240,19 @@ a.buttonlink:active {
   }
   .counter-container {
     text-align: right;
-    background-color: yellow;
     position: absolute;
     float: none;
     left: calc(50% - 200px);
   }
+  #about-page .sitcky-cta-container .buttonlink {
+    transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -webkit-transform: translateX(-50%);
+    left: 50%;
+  }
+  #about-page .counter-container {
+    display: none;
+  }
+
 }
 /* end rest of styles */
