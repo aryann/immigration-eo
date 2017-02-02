@@ -33,6 +33,7 @@
     <link rel="shortcut icon" href="images/favicon.ico"  type="image/x-icon">
     <link href="//fonts.googleapis.com/css?family=Lato:300,700|Roboto:300,400,500,700" rel="stylesheet" />
     <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/loader.min.css" />
     <link rel="stylesheet" href="js/flexslider/flexslider.css" />
     <link rel="stylesheet" href="css/colorblocks-style.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -61,18 +62,20 @@
       <span class="socialShare"></span>
 
 
-      <div class="counter-container">
+      <div class="counter-container loading">
 
         <!-- <span class="counter">
           {{ num_signatories }}
         </span> -->
 
         <span class="counter">
-          2,026
-        </span>
-        Have signed
+          <div class="loader ball-pulse">
+          <div></div><div></div><div></div>
+          </div>
+          <!-- populated by main.js -->
+        </span>Have signed
         <br>
-        <span class="timestamp">As of Feb 1st, 9pm PST</span>
+        <span class="timestamp">Updated every 5 minutes</span>
       </div>
 
 

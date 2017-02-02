@@ -39,7 +39,7 @@ em {
 .timestamp {
   font-weight: 300;
   color: #999;
-  font-size: 0.85em;
+  font-size: 0.7em;
 }
 #banner {
   margin: 15px 0;
@@ -108,6 +108,15 @@ a.buttonlink:active {
   width: 25px;
   margin-top: -3px;
 }
+
+/* loader */
+.ball-pulse {
+  display: inline;
+}
+.ball-pulse>div {
+  background-color: #ccc!important;
+}
+
 .social img {
   width: 30px;
   height: auto;
@@ -347,6 +356,13 @@ a.buttonlink:active {
     position: absolute;
     float: none;
     left: calc(50% - 200px);
+  }
+  .counter-container.failed {
+    left: calc(50% - 270px);
+  }
+  .counter-container.loading {
+    margin-left: -13px;
+    margin-top: -2px;
   }
 
 

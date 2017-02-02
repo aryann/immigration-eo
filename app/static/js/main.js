@@ -7,6 +7,11 @@ $(document).ready(function(){
 	var $venobox = $('.venobox');
   var mobileBreakPoint = 768;
   var $up = $('.up-arrow-scroll');
+  var fallBackCount = 'More than 1000 ';
+  var $counterEl = $('.counter');
+  var $counterContainerEl = $('.counter-container');
+
+  var $loaderEl = $('ball-pulse');
 
   function isMobile() {
     return windowWidth < mobileBreakPoint;
@@ -47,6 +52,28 @@ $(document).ready(function(){
     e.preventDefault();
     $("html, body").animate({ scrollTop: "0px" });
   });
+
+  function loadCount() {
+    var endPoint = '//docs.google.com/spreadsheets/d/17jz1v4DusIRhtQYhkvelHq1oJlsFSBat5aSb0cHNQ2k/pubhtml?gid=1523619827&widget=false&headers=false&chrome=false&single=true';
+    $.ajax({
+      url: endPoint,
+      dataType: 'html'
+    }).done(function(data, textStatus, jqXHR) {
+      var $data = $(data);
+      var $countCell = $($data[8].getElementsByClassName('s0'));
+      var count = $countCell.text();
+      $counterEl.text(count + ' ');
+
+    }).fail(function(error) {
+      $counterContainerEl.addClass('failed');
+      $counterEl.text(fallBackCount);
+    }).always(function() {
+      $loaderEl.fadeOut();
+      $counterContainerEl.removeClass('loading');
+    });
+  }
+
+  loadCount();
 
   // share code
   var shareUrl = 'http://siliconvalleystands.org/';
