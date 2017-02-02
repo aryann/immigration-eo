@@ -73,7 +73,7 @@ $(document).ready(function(){
     });
   }
 
-  loadCount();
+  //loadCount();
 
   // share code
   var shareUrl = 'http://siliconvalleystands.org/';
