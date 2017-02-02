@@ -296,6 +296,7 @@ a.buttonlink:active {
   .counter-container {
     text-align: center;
     font-size: 1.2em;
+    margin-top: 12px;
   }
   .sitcky-cta-container {
     height: 120px;
@@ -356,13 +357,10 @@ a.buttonlink:active {
     position: absolute;
     float: none;
     left: calc(50% - 200px);
-  }
-  .counter-container.failed {
-    left: calc(50% - 270px);
-  }
-  .counter-container.loading {
-    margin-left: -13px;
-    margin-top: -2px;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
   }
 
 
