@@ -18,29 +18,35 @@ Signature = collections.namedtuple('Signature', ['name', 'company', 'title'])
 SIGNATURES_PER_ROW = 3
 
 
+def get_signatures_from_file():
+  """Returns Signature objects from a CSV file, and groups them into triplets,
+  so we can display three signatures per row.
+
+  For now this is unused.
+  """
+  signatures = []
+  num_signatories = 0
+  with open(SIGNATURES_FILE) as f:
+    reader = csv.reader(f)
+    next(reader)  # Skips the header.
+    curr = []
+    for i, row in enumerate(reader):
+      num_signatories += 1
+      if i != 0 and i % SIGNATURES_PER_ROW == 0:
+        signatures.append(curr)
+        curr = []
+      curr.append(Signature(name=row[0], company=row[1], title=row[2]))
+
+    if not curr:
+      signatures.append(curr)
+
+  return signatures
+
+
 class MainPage(webapp2.RequestHandler):
 
     def get(self):
-      signatures = []
-      num_signatories = 0
-      with open(SIGNATURES_FILE) as f:
-        reader = csv.reader(f)
-        next(reader)  # Skips the header.
-        curr = []
-        for i, row in enumerate(reader):
-          num_signatories += 1
-          if i != 0 and i % SIGNATURES_PER_ROW == 0:
-            signatures.append(curr)
-            curr = []
-          curr.append(Signature(name=row[0], company=row[1], title=row[2]))
-
-      if not curr:
-        signatures.append(curr)
-
       template_values = {
-          'signatures': signatures,
-          'num_signatories': '{:,}'.format(num_signatories),
-          'name': 'home-page'
       }
       self.response.write(HOME_TEMPLATE.render(template_values))
 
@@ -49,7 +55,6 @@ class AboutPage(webapp2.RequestHandler):
 
   def get(self):
     template_values = {
-      'name': 'about-page'
     }
     self.response.write(ABOUT_TEMPLATE.render(template_values))
 

@@ -49,7 +49,7 @@
     </script>
   </head>
 
-  <body id="{{ name }}">
+  <body id="{% block body_id %}{% endblock %}">
 
     <a href="#" class="up-arrow-scroll">
       <img src="images/up.png">
@@ -73,7 +73,7 @@
           <div></div><div></div><div></div>
           </div>
           <!-- populated by main.js -->
-        </span>Have signed
+        </span>have signed
         <br>
         <span class="timestamp">Updated every 5 minutes</span>
       </div>
