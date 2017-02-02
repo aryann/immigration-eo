@@ -20,7 +20,6 @@ SIGNATURES_FILE = os.path.join(os.path.dirname(__file__), 'signatures.csv')
 Signature = collections.namedtuple('Signature', ['name', 'company', 'title'])
 SIGNATURES_PER_ROW = 3
 
-
 NUM_SIGNATURES_URL = (
     'https://docs.google.com/spreadsheets/d/'
     '17jz1v4DusIRhtQYhkvelHq1oJlsFSBat5aSb0cHNQ2k/'
@@ -53,22 +52,25 @@ def get_signatures_from_file():
   return signatures
 
 
+def get_num_signatures():
+  num_signatures = NUM_SIGNATURES_FALLBACK
+  try:
+    result = urlfetch.fetch(NUM_SIGNATURES_URL)
+    if result.status_code == httplib.OK:
+      try:
+        num_signatures = int(result.content)
+      except ValueError:
+        pass
+  except urlfetch.Error:
+    pass
+  return num_signatures
+
+
 class MainPage(webapp2.RequestHandler):
 
     def get(self):
-      num_signatures = NUM_SIGNATURES_FALLBACK
-      try:
-        result = urlfetch.fetch(NUM_SIGNATURES_URL)
-        if result.status_code == httplib.OK:
-          try:
-            num_signatures = int(result.content)
-          except ValueError:
-            pass
-      except urlfetch.Error:
-            pass
-
       template_values = {
-        'num_signatures': '{:,}'.format(num_signatures),
+        'num_signatures': '{:,}'.format(get_num_signatures()),
       }
       self.response.write(HOME_TEMPLATE.render(template_values))
 
@@ -77,6 +79,7 @@ class AboutPage(webapp2.RequestHandler):
 
   def get(self):
     template_values = {
+        'num_signatures': '{:,}'.format(get_num_signatures()),
     }
     self.response.write(ABOUT_TEMPLATE.render(template_values))
 
