@@ -27,7 +27,6 @@ NUM_SIGNATURES_URL = (
     'https://docs.google.com/spreadsheets/d/'
     '17jz1v4DusIRhtQYhkvelHq1oJlsFSBat5aSb0cHNQ2k/'
     'pub?gid=1523619827&single=true&output=csv')
-NUM_SIGNATURES_FALLBACK = 4700  # We have at least this many signatures.
 SIGNATURE_COUNT_FETCH_DEADLINE_SECS = 5
 
 
@@ -77,18 +76,14 @@ class AboutPage(webapp2.RequestHandler):
 class UpdateSignatureCount(webapp2.RequestHandler):
 
   def get_num_signatures(self):
-    num_signatures = NUM_SIGNATURES_FALLBACK
-    try:
-      result = urlfetch.fetch(
-          NUM_SIGNATURES_URL, deadline=SIGNATURE_COUNT_FETCH_DEADLINE_SECS)
-      if result.status_code == httplib.OK:
-        try:
-          num_signatures = int(result.content)
-        except ValueError:
-          logging.error('Could not parse contents as int: %s', result.content)
-    except urlfetch.Error as e:
-      logging.error('Could not fetch number of signatures: %s', e)
-    return num_signatures
+    result = urlfetch.fetch(
+        NUM_SIGNATURES_URL, deadline=SIGNATURE_COUNT_FETCH_DEADLINE_SECS)
+    if result.status_code == httplib.OK:
+      return int(result.content)
+    else:
+      return ValueError('Received non-200 status code: %d; %s',
+                        result.status_code, result.content)
+
 
   def get(self):
     latest_count = self.get_num_signatures()
