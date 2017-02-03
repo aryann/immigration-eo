@@ -31,7 +31,11 @@ SIGNATURE_COUNT_FETCH_DEADLINE_SECS = 5
 
 
 def get_signatures_from_file():
-
+  """
+    Returns Signature objects from a CSV file, and groups them into triplets,
+    so we can display three signatures per row.
+    For now this is unused.
+  """
   signatures = []
   num_signatories = 0
   with open(SIGNATURES_FILE) as f:
