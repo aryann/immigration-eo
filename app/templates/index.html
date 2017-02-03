@@ -95,10 +95,27 @@
 <section id="features"  class="greenelement signatures-wrapper vertical-padding">
 	<div class="wrapper clearfix">
 
-    <p class="temp-text">
+    <!-- <p class="temp-text">
       So far 105 executives (including Omid Kordestani and Jeff Huber), <br>  17 VPs, and 47 Directors have signed this open letter.
       <br> The full list of signatures will be published after verification.
-    </p>
+    </p> -->
+
+     <h1>Signed,</h1>
+
+    <div class="signatures-group row vertical-padding">
+    {% for row in signatures %}
+      {% for signature in row %}
+        <div class="grid_4">
+          <h3>{{ signature.name }}</h3>
+          <p>
+            {{ signature.title }}
+      <br />{{ signature.company }}
+          </p>
+        </div>
+      {% endfor %}
+    {% endfor %}
+    </div><!-- #end div .wrapper -->
+
 
 </section>
 

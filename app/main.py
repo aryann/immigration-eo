@@ -31,11 +31,7 @@ SIGNATURE_COUNT_FETCH_DEADLINE_SECS = 5
 
 
 def get_signatures_from_file():
-  """Returns Signature objects from a CSV file, and groups them into triplets,
-  so we can display three signatures per row.
 
-  For now this is unused.
-  """
   signatures = []
   num_signatories = 0
   with open(SIGNATURES_FILE) as f:
@@ -60,6 +56,7 @@ class MainPage(webapp2.RequestHandler):
     def get(self):
       template_values = {
           'num_signatures': '{:,}'.format(models.SignatureCount.get_count()),
+          'signatures': get_signatures_from_file()
       }
       self.response.write(HOME_TEMPLATE.render(template_values))
 
@@ -69,6 +66,7 @@ class AboutPage(webapp2.RequestHandler):
   def get(self):
     template_values = {
         'num_signatures': '{:,}'.format(models.SignatureCount.get_count()),
+
     }
     self.response.write(ABOUT_TEMPLATE.render(template_values))
 
