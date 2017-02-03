@@ -56,6 +56,7 @@ class MainPage(webapp2.RequestHandler):
     def get(self):
       template_values = {
           'num_signatures': '{:,}'.format(models.SignatureCount.get_count()),
+          'signatures': get_signatures_from_file()
       }
       self.response.write(HOME_TEMPLATE.render(template_values))
 
@@ -65,7 +66,7 @@ class AboutPage(webapp2.RequestHandler):
   def get(self):
     template_values = {
         'num_signatures': '{:,}'.format(models.SignatureCount.get_count()),
-        'signatures': get_signatures_from_file()
+
     }
     self.response.write(ABOUT_TEMPLATE.render(template_values))
 
