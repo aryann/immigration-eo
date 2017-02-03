@@ -9,6 +9,8 @@ import webapp2
 
 from google.appengine.api import urlfetch
 
+import models
+
 JINJA_ENVIRONMENT = jinja2.Environment(
     loader=jinja2.FileSystemLoader(os.path.join(
         os.path.dirname(__file__), 'templates')),
@@ -54,26 +56,11 @@ def get_signatures_from_file():
   return signatures
 
 
-def get_num_signatures():
-  num_signatures = NUM_SIGNATURES_FALLBACK
-  try:
-    result = urlfetch.fetch(
-        NUM_SIGNATURES_URL, deadline=SIGNATURE_COUNT_FETCH_DEADLINE_SECS)
-    if result.status_code == httplib.OK:
-      try:
-        num_signatures = int(result.content)
-      except ValueError:
-        logging.error('Could not parse contents as int: %s', result.content)
-  except urlfetch.Error as e:
-    logging.error('Could not fetch number of signatures: %s', e)
-  return num_signatures
-
-
 class MainPage(webapp2.RequestHandler):
 
     def get(self):
       template_values = {
-        'num_signatures': '{:,}'.format(get_num_signatures()),
+          'num_signatures': '{:,}'.format(models.SignatureCount.get_count()),
       }
       self.response.write(HOME_TEMPLATE.render(template_values))
 
@@ -82,12 +69,34 @@ class AboutPage(webapp2.RequestHandler):
 
   def get(self):
     template_values = {
-        'num_signatures': '{:,}'.format(get_num_signatures()),
+        'num_signatures': '{:,}'.format(models.SignatureCount.get_count()),
     }
     self.response.write(ABOUT_TEMPLATE.render(template_values))
+
+
+class UpdateSignatureCount(webapp2.RequestHandler):
+
+  def get_num_signatures(self):
+    num_signatures = NUM_SIGNATURES_FALLBACK
+    try:
+      result = urlfetch.fetch(
+          NUM_SIGNATURES_URL, deadline=SIGNATURE_COUNT_FETCH_DEADLINE_SECS)
+      if result.status_code == httplib.OK:
+        try:
+          num_signatures = int(result.content)
+        except ValueError:
+          logging.error('Could not parse contents as int: %s', result.content)
+    except urlfetch.Error as e:
+      logging.error('Could not fetch number of signatures: %s', e)
+    return num_signatures
+
+  def get(self):
+    latest_count = self.get_num_signatures()
+    models.SignatureCount.update(latest_count)
 
 
 app =  webapp2.WSGIApplication([
     ('/', MainPage),
     ('/about', AboutPage),
+    ('/tasks/update_signature_count', UpdateSignatureCount),
 ], debug=False)

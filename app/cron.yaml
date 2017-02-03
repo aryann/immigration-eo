@@ -1,0 +1,3 @@
+cron:
+- url: /tasks/update_signature_count
+  schedule: every 5 mins

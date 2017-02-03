@@ -9,6 +9,9 @@ handlers:
   static_dir: static/css
 - url: /images
   static_dir: static/images
+- url: /tasks/.*
+  script: main.app
+  login: admin
 - url: /.*
   script: main.app
   
