@@ -24,4 +24,12 @@ class SignatureCount(ndb.Model):
 
   @classmethod
   def get_count(cls):
-    return ndb.Key(cls, _SIGNATURE_COUNT_KEY).get().count
+    entity =ndb.Key(cls, _SIGNATURE_COUNT_KEY).get()
+    if entity:
+      return entity.count
+    else:
+      logging.error(
+          "We don't have a signature count yet. Invoke the "
+          'tasks/update_signature_count endpoint manually if you are '
+          'developing locally.')
+      return 0
