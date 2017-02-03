@@ -24,4 +24,4 @@ class SignatureCount(ndb.Model):
 
   @classmethod
   def get_count(cls):
-    return cls.get(_SIGNATURE_COUNT_KEY).count
+    return ndb.Key(cls, _SIGNATURE_COUNT_KEY).get().count
